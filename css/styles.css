@@ -180,7 +180,11 @@ body.dark-mode .section__title {
 }
 
 /* Secciones siempre oscuras (Hero y Footer) */
-.glass-hero, .services-hero, .footer {
+.glass-hero, .services-hero {
+    --color-btn-text: #000000;
+}
+
+.footer {
     --color-btn-text: var(--color-accent);
 }
 
@@ -206,7 +210,7 @@ body.dark-mode .section__title {
     background: rgba(37, 211, 102, 0.4);
     border-color: rgba(37, 211, 102, 0.5);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.2);
-    color: #FFF;
+    color: #000000;
 }
 
 .btn-icon {
