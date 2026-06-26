@@ -52,6 +52,18 @@ const translations = {
         exp_profile: "Perfil Profesional",
         btn_download_cv: "Descargar Currículum",
         
+        // Experience Timeline
+        exp_timeline_title: "Trayectoria Destacada",
+        exp_role_1: "Asesor Legal Externo Corporativo",
+        exp_company_1: "Banco de Costa Rica (2015 - Presente)",
+        exp_desc_1: "Especialista en estructuración de créditos hipotecarios y fideicomisos, gestionando operaciones bancarias complejas asegurando cero contingencias legales.",
+        exp_role_2: "Director Departamento Corporativo",
+        exp_company_2: "Firma Legal LexMundus CR (2010 - 2015)",
+        exp_desc_2: "Lideró fusiones y adquisiciones transnacionales, gestionando la apertura de sedes operativas para corporaciones multinacionales bajo el Régimen de Zona Franca.",
+        exp_role_3: "Notario Público Titular",
+        exp_company_3: "Desarrolladora Inmobiliaria del Pacífico (2005 - 2010)",
+        exp_desc_3: "Responsable de la constitución de condominios de lujo en la provincia de Guanacaste, asegurando la debida diligencia legal de propiedades costeras.",
+        
         // Testimonials
         testimonials_title: "Lo que dicen nuestros clientes",
         
@@ -122,6 +134,18 @@ const translations = {
         exp_cases: "Successfully Completed Notary Procedures",
         exp_profile: "Professional Profile",
         btn_download_cv: "Download Curriculum",
+        
+        // Experience Timeline
+        exp_timeline_title: "Outstanding Trajectory",
+        exp_role_1: "External Corporate Legal Advisor",
+        exp_company_1: "Banco de Costa Rica (2015 - Present)",
+        exp_desc_1: "Specialist in structuring mortgage loans and trusts, managing complex banking operations ensuring zero legal contingencies.",
+        exp_role_2: "Corporate Department Director",
+        exp_company_2: "LexMundus CR Law Firm (2010 - 2015)",
+        exp_desc_2: "Led transnational mergers and acquisitions, managing the opening of operational headquarters for multinational corporations under the Free Trade Zone Regime.",
+        exp_role_3: "Lead Public Notary",
+        exp_company_3: "Pacific Real Estate Developer (2005 - 2010)",
+        exp_desc_3: "Responsible for the incorporation of luxury condominiums in the Guanacaste province, ensuring legal due diligence of coastal properties.",
         
         testimonials_title: "What our clients say",
         
