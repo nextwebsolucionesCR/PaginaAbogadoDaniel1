@@ -1,0 +1,171 @@
+Tu rol sera el de un experto de UI en 
+diseño visual web crearas una página web 
+con identidad propia y tienes prohibido usar diseños y estructuras web genericas
+de paginas web, tu tarea es dar ese toque unico de una pagina
+web que se diferencia de las plantillas genericas, la pgina web sera la de un abogado.
+
+ Informacion General
+
+Abogado Jose Daniel Martinez Espinoza
+Telefono: +506 7199-0701 / 2665-1118
+Email: dmartinez@bufetedm.com
+Profecion: Abogado y notario publico
+
+Redes Sociales
+
+Facebook: https://www.facebook.com/josedaniel.martinezespinoza.5?locale=es_LA
+
+------------------------------------- PARA LA PAGINA WEB --------------------------
+
+-Sección Principal:
+
+Esta es la primera impresión. Debe transmitir seguridad y autoridad.
+
+Título Principal: Asesoría Legal y Servicios Notariales de Confianza
+
+Subtítulo: Abogado Jose Daniel Martinez Espinoza.
+
+Dos Botónes (Llamado a la acción):  Contactar por WhatsApp y Mi Experiencia
+
+------------------------------------------------
+
+-ACERCA DE:
+
+Título: Compromiso, Ética y Profesionalismo
+
+Texto: "Soy Jose Daniel Martinez Espinoza, Abogado y Notario Público. 
+Mi objetivo principal es brindar acompañamiento legal preventivo y resolutivo, adaptándome a 
+las necesidades específicas de cada cliente. Con un trato honesto y directo, me dedico a proteger
+ sus intereses legales bajo los más altos estándares de ética profesional. Ya sea para un trámite notarial 
+ rápido o una asesoría legal compleja, estoy aquí para guiarle paso a paso."
+
+-----------------------------------------------------
+
+-AREAS DE SERVICIO
+
+Cada servicio individual pertenece a una categoria
+Cada servicio individual tendra un boton de consultar que al dar click llevara a whatsapp con un mensaje prehescrito del 
+servicio elegido, al dar click en un servicio debera abrirse un modal con su descripcion
+
+En la pagina de inicio mostraras los primeros dos servicios de cada categoria al final de los 
+servicios abra un boton general que diga ver mas servicios que llevara a una pagina nueva donde se mostrara todos los servicios
+con filtros que ayuden al usuario a encontrar el servicio que necesita y una barra de busqueda.
+
+
+
+Servicios Notariales
+
+1.Traspasos de propiedades y vehículos:
+Asesoría y gestión integral para la transferencia legal de bienes inmuebles y vehículos, garantizando seguridad jurídica, cumplimiento normativo y trámites ágiles.
+
+2.Redacción de escrituras:
+Elaboración de escrituras públicas con precisión legal, adaptadas a las necesidades de cada cliente y cumpliendo con todos los requisitos establecidos por la ley.
+
+3.Autenticación de firmas:
+Certificación notarial de firmas para brindar validez y seguridad jurídica a documentos públicos y privados.
+
+4.Testamentos:
+Asesoría personalizada y formalización de testamentos para proteger el patrimonio y garantizar el cumplimiento de la voluntad del otorgante.
+
+5.Matrimonios legales:
+Celebración y formalización de matrimonios civiles con acompañamiento profesional durante todo el proceso.
+
+6.Certificaciones:
+Emisión de certificaciones notariales de documentos, copias y hechos jurídicos, otorgándoles respaldo y autenticidad legal.
+
+Derecho Civil y Contratos
+
+1.Elaboración de contratos:
+Redacción de contratos claros, sólidos y personalizados que protejan los intereses de las partes involucradas y prevengan futuros conflictos.
+
+2.Revisión y negociación de contratos:
+Análisis detallado de cláusulas contractuales y acompañamiento estratégico en procesos de negociación para asegurar condiciones justas y favorables.
+
+3.Resolución de conflictos patrimoniales:
+Asesoría y representación legal en disputas relacionadas con bienes, propiedades, obligaciones y derechos patrimoniales.
+
+4.Cobros judiciales y asesoría en obligaciones civiles:
+Gestión eficiente de procesos de cobro y orientación legal para el cumplimiento y defensa de derechos derivados de obligaciones civiles.
+
+Derecho de Familia
+
+1.Pensiones alimentarias:
+Asesoría y gestión legal para la fijación, modificación o ejecución de pensiones alimentarias en defensa de los derechos de los involucrados.
+
+2.Custodia y procesos sucesorios:
+Representación y acompañamiento en asuntos de guarda, custodia de menores y trámites sucesorios relacionados con herencias y distribución de bienes.
+
+Asesoría Corporativa
+
+1.Orientación legal preventiva para emprendedores:
+Asesoramiento estratégico para la creación y desarrollo de negocios, identificando riesgos legales y fortaleciendo la seguridad jurídica de los proyectos.
+
+2.Constitución de sociedades anónimas y revisión de normativas laborales para empresas:
+Apoyo integral en la creación de sociedades mercantiles, así como en el cumplimiento de obligaciones laborales y regulatorias para empresas de todos los tamaños.
+
+
+
+----------------------------------------------------------------------
+
+-Experiencia:
+
+Título de la sección: Daniel su abogado de confianza
+
+Contador 1: +10 Años de Trayectoria Legal.
+
+Contador 2: +100 Clientes Satisfechos y Asesorados.
+
+Contador 3: +200 Trámites Notariales Completados con Éxito.
+
+Junto a la experiencia ira incrustado y vicible el pdf: 
+
+----------------------------------------------------------------------
+
+Testimonios:
+
+pon 10 testimonios en bucle infinito que den a entender que daniel es un buen abogado y notario.
+
+
+----------------------------------------------------------------------
+
+-Contacto y horario de atencion:
+
+Horario: El horario de atencion es de Lunes - Viernes de 8 am a 5 pm
+
+Ubicacion: Habra tambien un google maps incrustado del lugar donde trabaja llamado 
+Bufete Martinez y Asociados las cordenadas son 10.63130984031444, -85.43572345086473
+
+
+Pon un mensaje claro que invite al cliente a escribirle.
+
+Título: ¿Necesita asesoría legal inmediata?
+
+Texto: "No deje sus asuntos legales para mañana. Contácteme hoy mismo para evaluar su caso y encontrar la mejor solución jurídica. La tranquilidad de estar bien asesorado está a un mensaje de distancia."
+
+Campos del formulario simulado: Nombre, Teléfono, Correo, Descripción breve del caso.
+
+---------------------------------
+
+///////////// PERSONALIZACION Y FUNCIONALIDADES /////////////////////
+
+COLORES DE LA PAGINA WEB:
+
+Color principal (Confianza): Un azul marino profundo, inspirado en la corbata del abogado. Este tono transmite seriedad y profesionalismo, ideal para un bufete.
+
+Color de acento (Elegancia): Un tono beige o dorado suave. Este color aporta un toque distinguido y funciona excelente para resaltar botones o enlaces importantes.
+
+Contraste (Claridad): Como el fondo es blanco, el texto debe ser de un gris muy oscuro (casi negro) para garantizar una lectura cómoda. El blanco proporciona una base limpia y moderna que hace resaltar los demás elementos.
+
+ICONOS:
+
+Usar Iconos Minimalistas y Professionales
+
+--------------------------------
+
+FUNCIONALIDADES:
+
+Modo oscuro --> Lo implementaras siguiendo las buenas practicas de 
+Modo Multiidioma: Español, Ingles, Frances, Chino, Portugues --> Lo implementaras siguiendo las buenas practicas de 
+Iconos Flotantes de Telefono 26651118  y Whatsapp 71990701  
+Widget Del Clima: --> Mas adelante lo implementas aun no
+Formulario Con email JS ---> Mas adelante te paso las credenciales

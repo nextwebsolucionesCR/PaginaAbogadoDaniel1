@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abogado Jose Daniel Martinez Espinoza | Asesoría Legal y Notariado</title>
+    <meta name="description" content="Servicios legales y notariales en Costa Rica por el Abogado Jose Daniel Martinez Espinoza. Traspasos, escrituras, derecho civil y familia. ¡Contácteme!">
+    
+    <!-- Open Graph SEO -->
+    <meta property="og:title" content="Bufete Martinez y Asociados - Asesoría Legal">
+    <meta property="og:description" content="Proteja sus intereses legales con los más altos estándares de ética profesional. Contacte al Abogado Daniel Martinez.">
+    <meta property="og:image" content="https://www.bufetedm.com/resources/image/abogado.webp"> <!-- Reemplazar con dominio final -->
+    <meta property="og:url" content="https://www.bufetedm.com/">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts: Playfair Display & Lora & Material Symbols -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css?v=19">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="header__container container">
+            <a href="index.html" class="header__logo">
+                <span class="material-symbols-outlined logo-icon">balance</span>
+                <span class="logo-text">Bufete DM</span>
+            </a>
+            
+            <button class="header__menu-btn" id="mobile-menu-btn" aria-label="Abrir menú">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+
+            <nav class="nav" id="main-nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__link" data-i18n="nav_home">Inicio</a></li>
+                    <li class="nav__item"><a href="#acerca" class="nav__link" data-i18n="nav_about">Acerca de</a></li>
+                    <li class="nav__item"><a href="#servicios" class="nav__link" data-i18n="nav_services">Servicios</a></li>
+                    <li class="nav__item"><a href="#experiencia" class="nav__link" data-i18n="nav_experience">Experiencia</a></li>
+                    <li class="nav__item"><a href="#contacto" class="nav__link" data-i18n="nav_contact">Contacto</a></li>
+                </ul>
+                
+                <div class="nav__controls">
+                    <button class="btn-icon" id="lang-toggle" aria-label="Cambiar Idioma">
+                        <span class="material-symbols-outlined">language</span>
+                        <span class="lang-text" id="lang-text-display">ES</span>
+                    </button>
+                    <button class="btn-icon" id="theme-toggle" aria-label="Cambiar Tema">
+                        <span class="material-symbols-outlined theme-icon" id="theme-icon">light_mode</span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section (Glassmorphism App Style) -->
+        <section id="inicio" class="hero glass-hero">
+            <div class="glass-hero__bg">
+                <img src="resources/image/abogado.webp" alt="Abogado Jose Daniel Martinez Espinoza" class="glass-hero__image">
+                <div class="glass-hero__overlay"></div>
+            </div>
+
+            <div class="container glass-hero__container">
+                <div class="glass-hero__card">
+                    <h1 class="hero__title" data-i18n="hero_title">Asesoría Legal y Servicios Notariales de Confianza</h1>
+                    <p class="hero__subtitle" data-i18n="hero_subtitle">Abogado Jose Daniel Martinez Espinoza.</p>
+                    <div class="hero__actions">
+                        <a href="https://wa.me/50671990701?text=Hola,%20necesito%20asesor%C3%ADa%20legal." target="_blank" class="btn btn--primary">
+                            <span class="material-symbols-outlined">chat</span> 
+                            <span data-i18n="btn_whatsapp">Contactar por WhatsApp</span>
+                        </a>
+                        <a href="#experiencia" class="btn btn--outline" data-i18n="btn_experience">Mi Experiencia</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Acerca de -->
+        <section id="acerca" class="about section container">
+            <div class="about__editorial">
+                <h2 class="editorial__title reveal" data-i18n="about_title">Compromiso, Ética y Profesionalismo</h2>
+                
+                <div class="editorial__content reveal reveal-delay-1">
+                    <p class="drop-cap" data-i18n="about_text_1">Soy Jose Daniel Martinez Espinoza, Abogado y Notario Público. Mi objetivo principal es brindar acompañamiento legal preventivo y resolutivo, adaptándome a las necesidades específicas de cada cliente.</p>
+                    <p data-i18n="about_text_2">Con un trato honesto y directo, me dedico a proteger sus intereses legales bajo los más altos estándares de ética profesional. Ya sea para un trámite notarial rápido o una asesoría legal compleja, estoy aquí para guiarle paso a paso.</p>
+                </div>
+
+                <div class="editorial__footer reveal reveal-delay-2">
+                    <span class="editorial__value" data-i18n="about_stat_1_desc">Especialidad en Derecho y Notariado</span>
+                    <span class="editorial__separator">✦</span>
+                    <span class="editorial__value" data-i18n="about_stat_2_desc">Ética Profesional Absoluta</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servicios (Preview) -->
+        <section id="servicios" class="services section" style="position: relative; background-color: var(--color-bg);">
+            
+            <!-- Contenedor del fondo cambiante (Scroll) -->
+            <div class="services-bg-container">
+                <img src="resources/image/ServiciosNotariales-TraspasoDePropiedadesYVehiculos.webp" id="bg-01" class="services-bg active" loading="lazy">
+                <img src="resources/image/ServiciosNotariales-RedacciónDeEscrituras.webp" id="bg-02" class="services-bg" loading="lazy">
+                <img src="resources/image/DerechoCivilYContratos-ElaboraciónDeContratos.webp" id="bg-03" class="services-bg" loading="lazy">
+                <img src="resources/image/DerechoCivilYContratos-RevisiónYNegociaciónDeContratos.webp" id="bg-04" class="services-bg" loading="lazy">
+                <img src="resources/image/DerechoDeFamilia-Pensiones-Alimentarias.webp" id="bg-05" class="services-bg" loading="lazy">
+                <img src="resources/image/AsesoriaCorporativa-OrientaciónLegalPreventivaParaEmprendedores.webp" id="bg-06" class="services-bg" loading="lazy">
+                <div class="services-bg-overlay"></div>
+            </div>
+
+            <div class="container" style="position: relative; z-index: 2;">
+                <h2 class="section__title text-center" data-i18n="services_title" style="color: #FFF;">Áreas de Servicio</h2>
+                
+                <div class="services-list" id="featured-services-container">
+                    
+                    <div class="service-row reveal" data-bg-target="bg-01" onclick="openServiceModal('notarial_1')">
+                        <span class="service-row__num">01</span>
+                        <h3 class="service-row__title" data-i18n="serv_notarial_1_title">Traspasos de propiedades y vehículos</h3>
+                        <span class="service-row__category" data-i18n="cat_notarial">Servicios Notariales</span>
+                        <span class="material-symbols-outlined service-row__arrow">arrow_forward</span>
+                    </div>
+
+                    <div class="service-row reveal" data-bg-target="bg-02" onclick="openServiceModal('notarial_2')">
+                        <span class="service-row__num">02</span>
+                        <h3 class="service-row__title" data-i18n="serv_notarial_2_title">Redacción de escrituras</h3>
+                        <span class="service-row__category" data-i18n="cat_notarial">Servicios Notariales</span>
+                        <span class="material-symbols-outlined service-row__arrow">arrow_forward</span>
+                    </div>
+
+                    <div class="service-row reveal" data-bg-target="bg-03" onclick="openServiceModal('civil_1')">
+                        <span class="service-row__num">03</span>
+                        <h3 class="service-row__title" data-i18n="serv_civil_1_title">Elaboración de contratos</h3>
+                        <span class="service-row__category" data-i18n="cat_civil">Derecho Civil y Contratos</span>
+                        <span class="material-symbols-outlined service-row__arrow">arrow_forward</span>
+                    </div>
+
+                    <div class="service-row reveal" data-bg-target="bg-04" onclick="openServiceModal('civil_2')">
+                        <span class="service-row__num">04</span>
+                        <h3 class="service-row__title" data-i18n="serv_civil_2_title">Revisión y negociación de contratos</h3>
+                        <span class="service-row__category" data-i18n="cat_civil">Derecho Civil y Contratos</span>
+                        <span class="material-symbols-outlined service-row__arrow">arrow_forward</span>
+                    </div>
+                    
+                    <div class="service-row reveal" data-bg-target="bg-05" onclick="openServiceModal('familia_1')">
+                        <span class="service-row__num">05</span>
+                        <h3 class="service-row__title" data-i18n="serv_familia_1_title">Pensiones alimentarias</h3>
+                        <span class="service-row__category" data-i18n="cat_family">Derecho de Familia</span>
+                        <span class="material-symbols-outlined service-row__arrow">arrow_forward</span>
+                    </div>
+
+                    <div class="service-row reveal" data-bg-target="bg-06" onclick="openServiceModal('corporativa_1')">
+                        <span class="service-row__num">06</span>
+                        <h3 class="service-row__title" data-i18n="serv_corp_1_title">Orientación legal para emprendedores</h3>
+                        <span class="service-row__category" data-i18n="cat_corporate">Asesoría Corporativa</span>
+                        <span class="material-symbols-outlined service-row__arrow">arrow_forward</span>
+                    </div>
+
+                </div>
+                
+                <div class="text-center" style="margin-top: var(--spacing-2xl); margin-bottom: 30vh; padding-bottom: var(--spacing-xl);">
+                    <a href="servicios.html" class="btn btn--primary btn--outline" data-i18n="btn_more_services" style="border-color: #FFF; color: #FFF;">Ver más servicios</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiencia -->
+        <section id="experiencia" class="experience section container">
+            
+            <div class="experience__stats-row reveal" id="counters-section">
+                <div class="stat-item">
+                    <span class="stat-item__number">+<span class="count" data-target="10">0</span></span>
+                    <span class="stat-item__text" data-i18n="exp_years">Años de Trayectoria Legal</span>
+                </div>
+                <div class="stat-separator"></div>
+                <div class="stat-item">
+                    <span class="stat-item__number">+<span class="count" data-target="100">0</span></span>
+                    <span class="stat-item__text" data-i18n="exp_clients">Clientes Satisfechos y Asesorados</span>
+                </div>
+                <div class="stat-separator"></div>
+                <div class="stat-item">
+                    <span class="stat-item__number">+<span class="count" data-target="200">0</span></span>
+                    <span class="stat-item__text" data-i18n="exp_cases">Trámites Notariales Completados con Éxito</span>
+                </div>
+            </div>
+
+            <div class="experience__pdf-wrapper reveal reveal-delay-1">
+                <div class="glass-document">
+                    <div class="glass-document__header">
+                        <span class="material-symbols-outlined glass-document__icon">history_edu</span>
+                        <h3 class="glass-document__title" data-i18n="exp_profile">Perfil Profesional</h3>
+                    </div>
+                    <!-- Agregamos parámetros a la URL para ocultar el panel y barra en Chrome/Edge -->
+                    <object data="resources/pdflinkdin/Profile.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH" type="application/pdf" class="pdf-embed">
+                        <p>Su navegador no soporta PDFs. <a href="resources/pdflinkdin/Profile.pdf" target="_blank">Descargar el PDF</a>.</p>
+                    </object>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonios -->
+        <section class="testimonials section bg-dark text-white">
+            <div class="container">
+                <h2 class="section__title text-center" data-i18n="testimonials_title" style="color: white;">Lo que dicen nuestros clientes</h2>
+            </div>
+            
+            <!-- El slider va fuera del container para ser verdaderamente full-width sin verse recortado por overflow: hidden -->
+            <div class="testimonials__slider container-3d">
+                <div class="testimonials__3d-wrapper">
+                    <div class="testimonials__track" id="testimonial-track">
+                        <!-- Generados dinamicamente por JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="contact section">
+            <div class="container">
+                <div class="contact__grid">
+                    <div class="contact__info">
+                        <h2 class="section__title" data-i18n="contact_title">¿Necesita asesoría legal inmediata?</h2>
+                        <p class="contact__desc" data-i18n="contact_desc">No deje sus asuntos legales para mañana. Contácteme hoy mismo para evaluar su caso y encontrar la mejor solución jurídica. La tranquilidad de estar bien asesorado está a un mensaje de distancia.</p>
+                        
+                        <ul class="contact__list">
+                            <li>
+                                <span class="material-symbols-outlined">schedule</span>
+                                <div>
+                                    <strong data-i18n="contact_hours_title">Horario de atención:</strong>
+                                    <span data-i18n="contact_hours_text">Lunes - Viernes de 8 am a 5 pm</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="material-symbols-outlined">call</span>
+                                <div>
+                                    <strong data-i18n="contact_phones_title">Teléfonos:</strong>
+                                    <span>+506 2665-1118 / +506 7199-0701</span>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="material-symbols-outlined">mail</span>
+                                <div>
+                                    <strong data-i18n="contact_email_title">Email:</strong>
+                                    <span>dmartinez@bufetedm.com</span>
+                                </div>
+                            </li>
+                        </ul>
+
+
+                    <div class="map-wrapper" id="map-container">
+                        <button class="btn-facade-map" id="load-map-btn">
+                            <span class="material-symbols-outlined">location_on</span> <span data-i18n="btn_load_map">Ver ubicación en el mapa</span>
+                        </button>
+                        <!-- El iframe se inyectara aqui -->
+                    </div>
+                </div>
+                
+                <div class="contact__form-wrapper">
+                    <form class="form" id="contact-form">
+                        <div class="form__group">
+                            <label for="name" data-i18n="form_name">Nombre completo</label>
+                            <input type="text" id="name" required data-i18n-placeholder="form_name_ph" placeholder="Nombre">
+                        </div>
+                        <div class="form__group">
+                            <label for="phone" data-i18n="form_phone">Teléfono</label>
+                            <input type="tel" id="phone" required data-i18n-placeholder="form_phone_ph" placeholder="Teléfono">
+                        </div>
+                        <div class="form__group">
+                            <label for="email" data-i18n="form_email">Correo electrónico</label>
+                            <input type="email" id="email" required data-i18n-placeholder="form_email_ph" placeholder="Correo">
+                        </div>
+                        <div class="form__group">
+                            <label for="message" data-i18n="form_message">Descripción breve del caso</label>
+                            <textarea id="message" rows="4" required data-i18n-placeholder="form_message_ph" placeholder="Mensaje"></textarea>
+                        </div>
+                        <button type="button" class="btn btn--primary w-100" data-i18n="btn_send">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Abogado Jose Daniel Martinez Espinoza. <span data-i18n="footer_rights">Todos los derechos reservados.</span></p>
+            <div class="footer__socials">
+                <a href="https://www.facebook.com/josedaniel.martinezespinoza.5?locale=es_LA" target="_blank" aria-label="Facebook">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <div class="floating-btns">
+        <a href="tel:+50626651118" class="float-btn float-btn--phone" aria-label="Llamar">
+            <span class="material-symbols-outlined">call</span>
+        </a>
+        <a href="https://wa.me/50671990701" target="_blank" class="float-btn float-btn--whatsapp" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M12.031 2C6.502 2 2.016 6.48 2.016 11.996c0 1.768.463 3.492 1.343 5.008L2 22l5.127-1.341c1.464.815 3.125 1.246 4.843 1.246h.001A10.003 10.003 0 0 0 22 12c0-5.526-4.48-10-10-10zh-.001zm-.022 18.232h-.002c-1.488 0-2.95-.398-4.227-1.152l-.304-.179-3.136.822.836-3.058-.198-.313A8.324 8.324 0 0 1 3.738 12c0-4.6 3.743-8.341 8.344-8.341 4.6 0 8.342 3.744 8.342 8.345 0 4.603-3.743 8.347-8.343 8.347z"/>
+                <path d="M16.666 13.916c-.254-.127-1.516-.749-1.75-.835-.235-.084-.405-.127-.577.127-.172.253-.665.834-.814 1.004-.15.17-.301.19-.554.062a6.762 6.762 0 0 1-1.998-1.229 7.422 7.422 0 0 1-1.378-1.721c-.15-.253-.016-.39.11-.518.114-.114.254-.296.38-.445.127-.147.17-.252.254-.423.085-.168.043-.316-.021-.444-.063-.127-.576-1.393-.789-1.905-.208-.5-.417-.433-.576-.441-.15-.008-.322-.01-.493-.01-.17 0-.448.064-.682.317-.234.254-.897.876-.897 2.138s.92 2.477 1.047 2.648c.127.168 1.802 2.75 4.364 3.852 2.562 1.103 2.562.735 3.028.692.466-.041 1.516-.62 1.728-1.218.213-.599.213-1.112.15-1.219-.063-.105-.233-.168-.487-.296z"/>
+            </svg>
+        </a>
+    </div>
+
+    <!-- Modal para Servicios -->
+    <div id="service-modal" class="modal" aria-hidden="true">
+        <div class="modal__overlay" onclick="closeServiceModal()"></div>
+        <div class="modal__content">
+            <button class="modal__close" onclick="closeServiceModal()" aria-label="Cerrar modal">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+            <div class="modal__body" id="modal-body">
+                <!-- Inyectado por JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js?v=8"></script>
+</body>
+</html>
