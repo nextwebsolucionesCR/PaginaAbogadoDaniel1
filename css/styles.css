@@ -1096,11 +1096,11 @@ body.dark-mode .modal__body h3 {
 .services-hero {
     position: relative;
     width: 100%;
-    min-height: 40vh; /* Un poco más corto que el hero principal */
+    min-height: auto; /* Eliminado el 40vh para que sea un banner delgado */
     display: flex;
     align-items: center;
     overflow: hidden;
-    padding: 120px 0 var(--spacing-2xl) 0;
+    padding: 140px 0 var(--spacing-xl) 0; /* Padding ajustado para dejar ver la cuadrícula debajo */
 }
 
 .services-hero__bg {
