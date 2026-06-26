@@ -88,6 +88,9 @@ const translations = {
         form_note: "* Formulario demostrativo (EmailJS se implementará luego)",
         
         // Footer
+        footer_nav_title: "Navegación",
+        footer_serv_title: "Especialidades",
+        footer_desc: "Asesoría legal y notarial de primer nivel. Ética, compromiso y resultados para proteger su patrimonio.",
         footer_rights: "Todos los derechos reservados."
     },
     en: {
@@ -165,7 +168,10 @@ const translations = {
         form_message_ph: "Write the details here...",
         btn_send: "Send Message",
         form_note: "* Demo form (EmailJS to be implemented later)",
-        
+        // Footer
+        footer_nav_title: "Navigation",
+        footer_serv_title: "Specialties",
+        footer_desc: "Top-level legal and notary advice. Ethics, commitment, and results to protect your assets.",
         footer_rights: "All rights reserved."
     },
     // Añadiendo los demás idiomas con traducciones aproximadas para estructurar
