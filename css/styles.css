@@ -1100,7 +1100,7 @@ body.dark-mode .modal__body h3 {
     display: flex;
     align-items: center;
     overflow: hidden;
-    padding: 140px 0 var(--spacing-xl) 0; /* Padding ajustado para dejar ver la cuadrícula debajo */
+    padding: 120px 0 var(--spacing-md) 0; /* Aún más pequeño para que la grilla suba más */
 }
 
 .services-hero__bg {
