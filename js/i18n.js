@@ -52,17 +52,16 @@ const translations = {
         exp_profile: "Perfil Profesional",
         btn_download_cv: "Descargar Currículum",
         
-        // Experience Timeline
-        exp_timeline_title: "Trayectoria Destacada",
-        exp_role_1: "Asesor Legal Externo Corporativo",
-        exp_company_1: "Banco de Costa Rica (2015 - Presente)",
-        exp_desc_1: "Especialista en estructuración de créditos hipotecarios y fideicomisos, gestionando operaciones bancarias complejas asegurando cero contingencias legales.",
-        exp_role_2: "Director Departamento Corporativo",
-        exp_company_2: "Firma Legal LexMundus CR (2010 - 2015)",
-        exp_desc_2: "Lideró fusiones y adquisiciones transnacionales, gestionando la apertura de sedes operativas para corporaciones multinacionales bajo el Régimen de Zona Franca.",
-        exp_role_3: "Notario Público Titular",
-        exp_company_3: "Desarrolladora Inmobiliaria del Pacífico (2005 - 2010)",
-        exp_desc_3: "Responsable de la constitución de condominios de lujo en la provincia de Guanacaste, asegurando la debida diligencia legal de propiedades costeras.",
+        // Experience Bento
+        exp_bento_title: "Hitos Relevantes",
+        exp_bento_corp_title: "Asesoría Corporativa Transnacional",
+        exp_bento_corp_desc: "Más de 5 años liderando aperturas de sedes operativas bajo el Régimen de Zona Franca y estructurando fusiones internacionales (M&A) para empresas Fortune 500.",
+        exp_bento_real_title: "Desarrollo Inmobiliario Costero",
+        exp_bento_real_desc: "Notario titular en la constitución de complejos turísticos y condominios de lujo en Guanacaste, garantizando estricta debida diligencia.",
+        exp_bento_bank_title: "Fideicomisos",
+        exp_bento_bank_desc: "Especialista externo para entidades financieras nacionales.",
+        exp_bento_lit_title: "Litigios Civiles",
+        exp_bento_lit_desc: "Resolución efectiva de disputas comerciales de alta complejidad.",
         
         // Testimonials
         testimonials_title: "Lo que dicen nuestros clientes",
@@ -135,17 +134,16 @@ const translations = {
         exp_profile: "Professional Profile",
         btn_download_cv: "Download Curriculum",
         
-        // Experience Timeline
-        exp_timeline_title: "Outstanding Trajectory",
-        exp_role_1: "External Corporate Legal Advisor",
-        exp_company_1: "Banco de Costa Rica (2015 - Present)",
-        exp_desc_1: "Specialist in structuring mortgage loans and trusts, managing complex banking operations ensuring zero legal contingencies.",
-        exp_role_2: "Corporate Department Director",
-        exp_company_2: "LexMundus CR Law Firm (2010 - 2015)",
-        exp_desc_2: "Led transnational mergers and acquisitions, managing the opening of operational headquarters for multinational corporations under the Free Trade Zone Regime.",
-        exp_role_3: "Lead Public Notary",
-        exp_company_3: "Pacific Real Estate Developer (2005 - 2010)",
-        exp_desc_3: "Responsible for the incorporation of luxury condominiums in the Guanacaste province, ensuring legal due diligence of coastal properties.",
+        // Experience Bento
+        exp_bento_title: "Relevant Milestones",
+        exp_bento_corp_title: "Transnational Corporate Advisory",
+        exp_bento_corp_desc: "Over 5 years leading the opening of operational headquarters under the Free Trade Zone Regime and structuring international mergers (M&A) for Fortune 500 companies.",
+        exp_bento_real_title: "Coastal Real Estate Development",
+        exp_bento_real_desc: "Lead Notary in the constitution of tourist complexes and luxury condominiums in Guanacaste, ensuring strict due diligence.",
+        exp_bento_bank_title: "Trusts & Banking",
+        exp_bento_bank_desc: "External specialist for national financial institutions.",
+        exp_bento_lit_title: "Civil Litigation",
+        exp_bento_lit_desc: "Effective resolution of highly complex commercial disputes.",
         
         testimonials_title: "What our clients say",
         

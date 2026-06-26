@@ -1516,61 +1516,84 @@ body[data-theme="light"] .services-hero__overlay {
 }
 
 /* ==========================================================================
-   Timeline (Trayectoria Destacada)
+   Experiencia (Bento Grid)
    ========================================================================== */
-.timeline {
-    position: relative;
-    max-width: 800px;
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, minmax(160px, auto));
+    gap: var(--spacing-md);
+    max-width: 1000px;
     margin: 0 auto;
-    padding-left: 30px;
 }
 
-.timeline::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 10px;
-    width: 2px;
-    height: 100%;
-    background: var(--color-accent);
-    opacity: 0.4;
-    border-radius: 2px;
-}
-
-.timeline__item {
-    position: relative;
-    padding-bottom: var(--spacing-xl);
-}
-
-.timeline__item:last-child {
-    padding-bottom: 0;
-}
-
-.timeline__dot {
-    position: absolute;
-    left: -24px;
-    top: 5px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: var(--color-accent);
-    box-shadow: 0 0 0 6px rgba(212, 175, 55, 0.15);
-}
-
-.timeline__content {
+.bento-card {
     background: rgba(244, 240, 235, 0.5);
-    padding: var(--spacing-md) var(--spacing-lg);
-    border-radius: 12px;
     border: 1px solid rgba(0,0,0,0.05);
-    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+    border-radius: 20px;
+    padding: var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast), background var(--transition-fast);
+    position: relative;
+    overflow: hidden;
 }
 
-.timeline__content:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-sm);
-}
-
-body.dark-mode .timeline__content {
+body.dark-mode .bento-card {
     background: rgba(30, 30, 30, 0.5);
     border-color: rgba(255,255,255,0.05);
+}
+
+.bento-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.bento-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: var(--color-accent);
+    opacity: 0.2;
+    transition: opacity var(--transition-fast), transform var(--transition-fast);
+}
+
+.bento-card:hover .bento-icon {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.bento-icon span {
+    font-size: 4rem; /* Icono grande estilo marca de agua */
+}
+
+/* Tamaños de las tarjetas */
+.bento-card--large {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.bento-card--medium {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.bento-card--small {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .bento-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    
+    .bento-card--large, .bento-card--medium, .bento-card--small {
+        grid-column: span 1;
+        grid-row: auto;
+        min-height: 180px;
+    }
 }
