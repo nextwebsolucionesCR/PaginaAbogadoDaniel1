@@ -311,7 +311,7 @@ window.openServiceModal = function(serviceId) {
             <img src="${data.img}" alt="${data.title}" style="width:100%; border-radius:8px; margin-bottom:16px;">
             <h3>${data.title}</h3>
             <p>${data.desc}</p>
-            <a href="${waLink}" target="_blank" class="btn btn--primary w-100" style="margin-top:16px;">
+            <a href="${waLink}" target="_blank" class="btn btn--primary btn--whatsapp w-100" style="margin-top:16px;">
                 <span class="material-symbols-outlined">chat</span> Consultar por WhatsApp
             </a>
         `;
