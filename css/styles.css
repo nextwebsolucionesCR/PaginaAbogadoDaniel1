@@ -145,46 +145,55 @@ body.dark-mode .section__title {
     padding: var(--spacing-sm) var(--spacing-md);
     border-radius: var(--radius-md);
     font-weight: 600;
-    border: none;
     cursor: pointer;
     transition: all var(--transition-fast);
     font-family: var(--font-primary);
     font-size: var(--text-base);
+
+    /* Estilo Glassmorphism Sutil Dorado */
+    background: rgba(212, 175, 55, 0.15); /* Fondo dorado translúcido */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(212, 175, 55, 0.2); /* Borde sutil dorado */
+    border-top: 1px solid rgba(255, 255, 255, 0.3); /* Brillo superior (efecto cristal) */
+    border-left: 1px solid rgba(255, 255, 255, 0.2); /* Brillo izquierdo */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    color: var(--color-accent); /* Texto dorado oscuro/elegante */
+}
+
+.btn:hover {
+    background: rgba(212, 175, 55, 0.25);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.15);
 }
 
 .btn--primary {
-    background-color: var(--color-accent);
-    color: #FFF;
+    background: rgba(212, 175, 55, 0.25);
+    color: var(--color-accent);
 }
 .btn--primary:hover {
-    background-color: var(--color-accent-hover);
-    color: #FFF;
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
+    background: rgba(212, 175, 55, 0.35);
 }
 
 .btn--secondary {
-    background-color: transparent;
+    background: rgba(255, 255, 255, 0.1);
     color: #FFF;
-    border: 2px solid #FFF;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
 }
 .btn--secondary:hover {
-    background-color: #FFF;
-    color: var(--color-primary);
+    background: rgba(255, 255, 255, 0.2);
+    color: #FFF;
 }
 
 .btn--outline {
-    background-color: transparent;
-    color: var(--color-accent);
-    border: 2px solid var(--color-accent);
+    background: rgba(212, 175, 55, 0.05);
 }
 .btn--outline:hover {
-    background-color: var(--color-accent);
-    color: #FFF;
+    background: rgba(212, 175, 55, 0.15);
 }
 
 .btn-icon {
-    background: transparent;
     border: none;
     color: inherit;
     cursor: pointer;
@@ -193,6 +202,23 @@ body.dark-mode .section__title {
     gap: 4px;
     font-family: inherit;
     font-weight: 500;
+    
+    /* Glassmorphism Pill */
+    padding: 6px 12px;
+    border-radius: 20px;
+    background: rgba(212, 175, 55, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all var(--transition-fast);
+}
+
+.btn-icon:hover {
+    background: rgba(212, 175, 55, 0.25);
+    border-color: rgba(212, 175, 55, 0.4);
+    box-shadow: 0 4px 12px rgba(212, 175, 55, 0.15);
+    color: var(--color-accent);
 }
 
 /* ==========================================================================
@@ -1323,18 +1349,25 @@ body[data-theme="light"] .services-hero__overlay {
 
 .filter-btn {
     padding: 8px 16px;
-    border: 1px solid var(--color-accent);
-    background: transparent;
-    color: var(--color-text);
     border-radius: 20px;
     cursor: pointer;
     font-size: var(--text-sm);
     transition: all var(--transition-fast);
+    
+    /* Glassmorphism */
+    background: rgba(212, 175, 55, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--color-text);
 }
 
 .filter-btn.active, .filter-btn:hover {
-    background: var(--color-accent);
-    color: #FFF;
+    background: rgba(212, 175, 55, 0.25);
+    border-color: rgba(212, 175, 55, 0.4);
+    box-shadow: 0 4px 12px rgba(212, 175, 55, 0.15);
+    color: var(--color-accent);
 }
 
 
