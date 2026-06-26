@@ -267,23 +267,40 @@ body.dark-mode .header.header--scrolled {
     display: flex;
 }
 
-/* Navigation - Mobile Default */
+/* Navigation - Mobile Default (Minimalist Redesign) */
 .nav {
     position: absolute;
-    top: 70px;
+    top: 100%;
     left: 0;
     width: 100%;
-    background-color: var(--color-primary-light);
+    background: rgba(244, 240, 235, 0.95); /* Light mode glass */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: var(--color-text); /* Color oscuro para modo claro */
     display: flex;
     flex-direction: column;
-    padding: var(--spacing-sm);
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    transition: clip-path var(--transition-normal);
+    padding: var(--spacing-xl) var(--spacing-lg);
+    
+    /* Animación minimalista */
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+body.dark-mode .nav {
+    background: rgba(11, 11, 11, 0.98);
+    color: #FFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .nav.is-open {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    box-shadow: var(--shadow-md);
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
 }
 
 .nav__list {
