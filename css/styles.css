@@ -1284,9 +1284,23 @@ body[data-theme="light"] .services-hero__overlay {
         background-color: transparent;
         flex-direction: row;
         padding: 0;
-        clip-path: none;
         align-items: center;
         gap: var(--spacing-lg);
+        
+        /* Fix visibility and reset mobile styles */
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+        box-shadow: none;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        border: none;
+    }
+    
+    body.dark-mode .nav {
+        background-color: transparent;
+        box-shadow: none;
+        border: none;
     }
 
     .nav__list {
