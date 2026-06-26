@@ -91,7 +91,25 @@ const translations = {
         footer_nav_title: "Navegación",
         footer_serv_title: "Especialidades",
         footer_desc: "Asesoría legal y notarial de primer nivel. Ética, compromiso y resultados para proteger su patrimonio.",
-        footer_rights: "Todos los derechos reservados."
+        footer_rights: "Todos los derechos reservados.",
+        
+        // Política de Privacidad
+        privacy_page_title: "Política de Privacidad | Abogado Jose Daniel Martinez Espinoza",
+        privacy_title: "Política de Privacidad",
+        privacy_intro: "El Bufete del Licenciado Jose Daniel Martinez Espinoza está comprometido con la protección de su privacidad y el manejo ético de sus datos personales. Esta política explica cómo recopilamos, usamos y protegemos su información al interactuar con nuestro sitio web y utilizar nuestros servicios.",
+        privacy_h1: "1. Información que Recopilamos",
+        privacy_p1: "Recopilamos información personal que usted nos proporciona voluntariamente, como su nombre, número de teléfono, dirección de correo electrónico y detalles de su consulta legal al utilizar nuestro formulario de contacto o al comunicarse con nosotros a través de WhatsApp.",
+        privacy_h2: "2. Uso de la Información",
+        privacy_p2: "La información recopilada se utiliza exclusivamente para:",
+        privacy_li1: "Proporcionarle el asesoramiento legal o notarial solicitado.",
+        privacy_li2: "Responder a sus preguntas y solicitudes de contacto.",
+        privacy_li3: "Programar citas y enviar recordatorios.",
+        privacy_h3: "3. Secreto Profesional y Confidencialidad",
+        privacy_p3: "Como profesionales del Derecho, estamos sujetos al más estricto secreto profesional. Toda la información, documentos y detalles de su caso están protegidos por este principio ético y legal. No compartimos, vendemos ni distribuimos su información a terceros sin su consentimiento expreso, a menos que sea requerido por una orden judicial.",
+        privacy_h4: "4. Seguridad de los Datos",
+        privacy_p4: "Implementamos medidas de seguridad administrativas y técnicas razonables para proteger su información personal contra pérdida, robo, acceso no autorizado, uso indebido o alteración. Sin embargo, ninguna transmisión por Internet es 100% segura, por lo que le recomendamos ser prudente al enviar información altamente sensible por medios electrónicos no encriptados.",
+        privacy_h5: "5. Contacto",
+        privacy_p5: "Si tiene alguna pregunta o inquietud sobre nuestra política de privacidad o el manejo de sus datos, no dude en contactarnos a través de los medios oficiales proporcionados en este sitio web."
     },
     en: {
         nav_home: "Home",
@@ -172,7 +190,25 @@ const translations = {
         footer_nav_title: "Navigation",
         footer_serv_title: "Specialties",
         footer_desc: "Top-level legal and notary advice. Ethics, commitment, and results to protect your assets.",
-        footer_rights: "All rights reserved."
+        footer_rights: "All rights reserved.",
+        
+        // Privacy Policy
+        privacy_page_title: "Privacy Policy | Attorney Jose Daniel Martinez Espinoza",
+        privacy_title: "Privacy Policy",
+        privacy_intro: "The Law Firm of Jose Daniel Martinez Espinoza is committed to protecting your privacy and the ethical handling of your personal data. This policy explains how we collect, use, and protect your information when interacting with our website and using our services.",
+        privacy_h1: "1. Information We Collect",
+        privacy_p1: "We collect personal information that you voluntarily provide to us, such as your name, phone number, email address, and details of your legal inquiry when using our contact form or communicating with us via WhatsApp.",
+        privacy_h2: "2. Use of Information",
+        privacy_p2: "The collected information is used exclusively to:",
+        privacy_li1: "Provide you with the requested legal or notary advice.",
+        privacy_li2: "Respond to your questions and contact requests.",
+        privacy_li3: "Schedule appointments and send reminders.",
+        privacy_h3: "3. Professional Secrecy and Confidentiality",
+        privacy_p3: "As legal professionals, we are bound by the strictest professional secrecy. All information, documents, and details of your case are protected by this ethical and legal principle. We do not share, sell, or distribute your information to third parties without your express consent, unless required by a court order.",
+        privacy_h4: "4. Data Security",
+        privacy_p4: "We implement reasonable administrative and technical security measures to protect your personal information against loss, theft, unauthorized access, misuse, or alteration. However, no internet transmission is 100% secure, so we recommend being prudent when sending highly sensitive information through unencrypted electronic means.",
+        privacy_h5: "5. Contact",
+        privacy_p5: "If you have any questions or concerns about our privacy policy or the handling of your data, please do not hesitate to contact us through the official means provided on this website."
     },
     // Añadiendo los demás idiomas con traducciones aproximadas para estructurar
     fr: {

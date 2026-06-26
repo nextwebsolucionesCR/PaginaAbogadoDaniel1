@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios Legales y Notariales | Abogado Jose Daniel Martinez Espinoza</title>
+    <title data-i18n="privacy_page_title">Política de Privacidad | Abogado Jose Daniel Martinez Espinoza</title>
     <meta name="description"
-        content="Catálogo completo de servicios legales y notariales en Costa Rica. Traspasos, escrituras, pensiones, contratos y más.">
+        content="Política de Privacidad y manejo de datos personales del bufete del Licenciado Jose Daniel Martinez Espinoza.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +38,7 @@
                     </li>
                     <li class="nav__item"><a href="index.html#acerca" class="nav__link" data-i18n="nav_about">Acerca
                             de</a></li>
-                    <li class="nav__item"><a href="servicios.html" class="nav__link" style="color:var(--color-accent);"
+                    <li class="nav__item"><a href="servicios.html" class="nav__link"
                             data-i18n="nav_services">Servicios</a></li>
                     <li class="nav__item"><a href="index.html#contacto" class="nav__link"
                             data-i18n="nav_contact">Contacto</a></li>
@@ -58,42 +58,39 @@
     </header>
 
     <main>
-        <section class="services-hero">
-            <img src="resources/image/ServiciosNotariales-RedacciónDeEscrituras.webp"
-                alt="Servicios Legales y Notariales" class="services-hero__bg">
-            <div class="services-hero__overlay"></div>
-
-            <div class="glass-hero__container container">
-                <div class="glass-hero__card">
-                    <h1 class="hero__title" style="font-size: clamp(2.5rem, 6vw, 4rem);">Nuestros Servicios</h1>
-                    <p class="hero__subtitle" style="font-size: var(--text-lg); margin-top: var(--spacing-sm);">
-                        Soluciones legales preventivas y resolutivas. Explore nuestro catálogo de servicios
-                        especializados.</p>
-                </div>
+        <!-- Hero de Privacidad -->
+        <section class="services-hero" style="min-height: 300px; padding-top: 120px;">
+            <div class="services-hero__bg">
+                <div class="services-hero__overlay" style="background: var(--color-primary);"></div>
+            </div>
+            <div class="container text-center" style="position: relative; z-index: 2;">
+                <h1 class="section__title text-white" data-i18n="privacy_title" style="margin-bottom: 0;">Política de Privacidad</h1>
             </div>
         </section>
 
-        <section class="container" style="padding: var(--spacing-lg) 0 var(--spacing-2xl) 0;">
-            <div class="filters-bar">
-                <div class="filter-buttons">
-                    <button class="filter-btn active" data-filter="all">Todos</button>
-                    <button class="filter-btn" data-filter="notarial">Notariales</button>
-                    <button class="filter-btn" data-filter="civil">Derecho Civil</button>
-                    <button class="filter-btn" data-filter="familia">Familia</button>
-                    <button class="filter-btn" data-filter="corporativa">Corporativa</button>
-                </div>
-                <div class="search-bar">
-                    <input type="text" id="service-search" class="search-input" placeholder="Buscar servicio...">
-                </div>
-            </div>
+        <section class="section container" style="max-width: 800px; padding-top: var(--spacing-xl); padding-bottom: var(--spacing-xl);">
+            <div class="editorial__content" style="color: var(--color-text);">
+                <p data-i18n="privacy_intro">El Bufete del Licenciado Jose Daniel Martinez Espinoza está comprometido con la protección de su privacidad y el manejo ético de sus datos personales. Esta política explica cómo recopilamos, usamos y protegemos su información al interactuar con nuestro sitio web y utilizar nuestros servicios.</p>
 
-            <div class="services__grid" id="all-services-grid">
-                <!-- Inyectado por JS -->
-            </div>
+                <h3 style="margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); color: var(--color-primary);" data-i18n="privacy_h1">1. Información que Recopilamos</h3>
+                <p data-i18n="privacy_p1">Recopilamos información personal que usted nos proporciona voluntariamente, como su nombre, número de teléfono, dirección de correo electrónico y detalles de su consulta legal al utilizar nuestro formulario de contacto o al comunicarse con nosotros a través de WhatsApp.</p>
 
-            <div id="no-results" class="text-center" style="display:none; padding: var(--spacing-xl) 0;">
-                <h3 style="color:var(--color-text-muted);">No se encontraron servicios que coincidan con su búsqueda.
-                </h3>
+                <h3 style="margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); color: var(--color-primary);" data-i18n="privacy_h2">2. Uso de la Información</h3>
+                <p data-i18n="privacy_p2">La información recopilada se utiliza exclusivamente para:</p>
+                <ul>
+                    <li data-i18n="privacy_li1">Proporcionarle el asesoramiento legal o notarial solicitado.</li>
+                    <li data-i18n="privacy_li2">Responder a sus preguntas y solicitudes de contacto.</li>
+                    <li data-i18n="privacy_li3">Programar citas y enviar recordatorios.</li>
+                </ul>
+
+                <h3 style="margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); color: var(--color-primary);" data-i18n="privacy_h3">3. Secreto Profesional y Confidencialidad</h3>
+                <p data-i18n="privacy_p3">Como profesionales del Derecho, estamos sujetos al más estricto secreto profesional. Toda la información, documentos y detalles de su caso están protegidos por este principio ético y legal. No compartimos, vendemos ni distribuimos su información a terceros sin su consentimiento expreso, a menos que sea requerido por una orden judicial.</p>
+
+                <h3 style="margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); color: var(--color-primary);" data-i18n="privacy_h4">4. Seguridad de los Datos</h3>
+                <p data-i18n="privacy_p4">Implementamos medidas de seguridad administrativas y técnicas razonables para proteger su información personal contra pérdida, robo, acceso no autorizado, uso indebido o alteración. Sin embargo, ninguna transmisión por Internet es 100% segura, por lo que le recomendamos ser prudente al enviar información altamente sensible por medios electrónicos no encriptados.</p>
+
+                <h3 style="margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); color: var(--color-primary);" data-i18n="privacy_h5">5. Contacto</h3>
+                <p data-i18n="privacy_p5">Si tiene alguna pregunta o inquietud sobre nuestra política de privacidad o el manejo de sus datos, no dude en contactarnos a través de los medios oficiales proporcionados en este sitio web.</p>
             </div>
         </section>
     </main>
@@ -180,81 +177,7 @@
 
     <script src="js/i18n.js"></script>
     <script src="js/main.js?v=9"></script>
-    <script>
-        // Lógica específica para servicios.html
-        document.addEventListener('DOMContentLoaded', () => {
-            const grid = document.getElementById('all-services-grid');
-            const searchInput = document.getElementById('service-search');
-            const filterBtns = document.querySelectorAll('.filter-btn');
-            const noResults = document.getElementById('no-results');
 
-            // Categorias mapeadas
-            const catMap = {
-                'notarial': 'Servicios Notariales',
-                'civil': 'Derecho Civil y Contratos',
-                'familia': 'Derecho de Familia',
-                'corporativa': 'Asesoría Corporativa'
-            };
-
-            const renderServices = (filter = 'all', query = '') => {
-                grid.innerHTML = '';
-                let count = 0;
-                const q = query.toLowerCase();
-
-                Object.keys(serviceData).forEach(key => {
-                    const data = serviceData[key];
-                    let category = 'notarial';
-                    if (key.includes('civil')) category = 'civil';
-                    if (key.includes('familia')) category = 'familia';
-                    if (key.includes('corporativa')) category = 'corporativa';
-
-                    const matchFilter = filter === 'all' || filter === category;
-                    const matchSearch = data.title.toLowerCase().includes(q) || data.desc.toLowerCase().includes(q);
-
-                    if (matchFilter && matchSearch) {
-                        count++;
-                        const article = document.createElement('article');
-                        article.className = 'service-card';
-                        article.onclick = () => openServiceModal(key);
-                        article.innerHTML = `
-                            <div class="service-card__img-wrapper">
-                                <img src="${data.img}" alt="${data.title}" class="service-card__img" loading="lazy">
-                            </div>
-                            <div class="service-card__content">
-                                <span class="service-card__category">${catMap[category]}</span>
-                                <h3 class="service-card__title">${data.title}</h3>
-                            </div>
-                        `;
-                        grid.appendChild(article);
-                    }
-                });
-
-                if (count === 0) {
-                    noResults.style.display = 'block';
-                } else {
-                    noResults.style.display = 'none';
-                }
-            };
-
-            // Initial render
-            renderServices();
-
-            // Search
-            searchInput.addEventListener('input', (e) => {
-                const activeFilter = document.querySelector('.filter-btn.active').getAttribute('data-filter');
-                renderServices(activeFilter, e.target.value);
-            });
-
-            // Filters
-            filterBtns.forEach(btn => {
-                btn.addEventListener('click', (e) => {
-                    filterBtns.forEach(b => b.classList.remove('active'));
-                    e.target.classList.add('active');
-                    renderServices(e.target.getAttribute('data-filter'), searchInput.value);
-                });
-            });
-        });
-    </script>
 </body>
 
 </html>
