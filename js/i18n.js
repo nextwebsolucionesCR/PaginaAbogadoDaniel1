@@ -50,6 +50,7 @@ const translations = {
         exp_clients: "Clientes Satisfechos y Asesorados",
         exp_cases: "Trámites Notariales Completados con Éxito",
         exp_profile: "Perfil Profesional",
+        btn_download_cv: "Descargar Currículum",
         
         // Testimonials
         testimonials_title: "Lo que dicen nuestros clientes",
@@ -120,6 +121,7 @@ const translations = {
         exp_clients: "Satisfied and Advised Clients",
         exp_cases: "Successfully Completed Notary Procedures",
         exp_profile: "Professional Profile",
+        btn_download_cv: "Download Curriculum",
         
         testimonials_title: "What our clients say",
         
