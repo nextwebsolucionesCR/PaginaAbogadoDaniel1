@@ -96,7 +96,7 @@ const translations = {
         // Política de Privacidad
         privacy_page_title: "Política de Privacidad | Abogado Jose Daniel Martinez Espinoza",
         privacy_title: "Política de Privacidad",
-        privacy_intro: "El Bufete del Licenciado Jose Daniel Martinez Espinoza está comprometido con la protección de su privacidad y el manejo ético de sus datos personales. Esta política explica cómo recopilamos, usamos y protegemos su información al interactuar con nuestro sitio web y utilizar nuestros servicios.",
+        privacy_intro: "El Licenciado Jose Daniel Martinez Espinoza está comprometido con la protección de su privacidad y el manejo ético de sus datos personales. Esta política explica cómo recopilamos, usamos y protegemos su información al interactuar con nuestro sitio web y utilizar nuestros servicios.",
         privacy_h1: "1. Información que Recopilamos",
         privacy_p1: "Recopilamos información personal que usted nos proporciona voluntariamente, como su nombre, número de teléfono, dirección de correo electrónico y detalles de su consulta legal al utilizar nuestro formulario de contacto o al comunicarse con nosotros a través de WhatsApp.",
         privacy_h2: "2. Uso de la Información",
@@ -195,7 +195,7 @@ const translations = {
         // Privacy Policy
         privacy_page_title: "Privacy Policy | Attorney Jose Daniel Martinez Espinoza",
         privacy_title: "Privacy Policy",
-        privacy_intro: "The Law Firm of Jose Daniel Martinez Espinoza is committed to protecting your privacy and the ethical handling of your personal data. This policy explains how we collect, use, and protect your information when interacting with our website and using our services.",
+        privacy_intro: "Attorney Jose Daniel Martinez Espinoza is committed to protecting your privacy and the ethical handling of your personal data. This policy explains how we collect, use, and protect your information when interacting with our website and using our services.",
         privacy_h1: "1. Information We Collect",
         privacy_p1: "We collect personal information that you voluntarily provide to us, such as your name, phone number, email address, and details of your legal inquiry when using our contact form or communicating with us via WhatsApp.",
         privacy_h2: "2. Use of Information",
