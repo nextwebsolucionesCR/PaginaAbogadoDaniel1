@@ -997,29 +997,51 @@ body.dark-mode .contact__list strong {
 }
 
 .float-btn {
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFF;
-    box-shadow: var(--shadow-lg);
-    transition: transform var(--transition-fast);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    
+    /* Diseño Minimalista - Glassmorphism */
+    background: rgba(244, 240, 235, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+body.dark-mode .float-btn {
+    background: rgba(30, 30, 30, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .float-btn:hover {
-    transform: scale(1.1);
-    color: #FFF;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .float-btn--whatsapp {
-    background-color: #25D366;
+    color: #25D366;
 }
 
 .float-btn--phone {
-    background-color: var(--color-primary);
-    border: 2px solid var(--color-accent);
+    color: var(--color-accent);
+}
+
+/* Efecto al pasar el cursor (hover) */
+.float-btn--whatsapp:hover {
+    background-color: #25D366;
+    color: #FFF;
+    border-color: #25D366;
+}
+
+.float-btn--phone:hover {
+    background-color: var(--color-accent);
+    color: #FFF;
+    border-color: var(--color-accent);
 }
 
 /* Modal */
