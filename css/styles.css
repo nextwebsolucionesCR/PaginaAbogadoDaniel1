@@ -181,7 +181,7 @@ body.dark-mode .section__title {
 
 /* Secciones siempre oscuras (Hero y Footer) */
 .glass-hero, .services-hero {
-    --color-btn-text: #000000;
+    --color-btn-text: #FFFFFF;
 }
 
 .footer {
