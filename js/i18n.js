@@ -16,6 +16,7 @@ const translations = {
         hero_subtitle: "Abogado Jose Daniel Martinez Espinoza.",
         btn_whatsapp: "Contactar por WhatsApp",
         btn_experience: "Mi Experiencia",
+        btn_view_services: "Ver Servicios",
         badge_years: "15+ Años",
         badge_exp: "de Experiencia",
         
@@ -88,6 +89,7 @@ const translations = {
         hero_subtitle: "Attorney Jose Daniel Martinez Espinoza.",
         btn_whatsapp: "Contact via WhatsApp",
         btn_experience: "My Experience",
+        btn_view_services: "View Services",
         badge_years: "15+ Years",
         badge_exp: "of Experience",
         
