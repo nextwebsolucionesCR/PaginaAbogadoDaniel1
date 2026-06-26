@@ -348,9 +348,9 @@ body.dark-mode .header.header--scrolled {
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     
-    /* Máscara de degradado: difumina el fondo y el blur tanto arriba como abajo para eliminar cualquier raya (corte) */
-    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 80%, transparent 100%);
-    mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 80%, transparent 100%);
+    /* Máscara de degradado ajustada para que el color sólido empiece antes de la primera palabra */
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 5%, black 80%, transparent 100%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 5%, black 80%, transparent 100%);
 }
 
 body.dark-mode .nav {
