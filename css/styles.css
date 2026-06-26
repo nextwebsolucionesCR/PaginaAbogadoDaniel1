@@ -14,6 +14,9 @@
     --color-text: #2D3142; /* Azul muy oscuro/Gris */
     --color-text-muted: #5C6275;
     --color-border: #D6D2CD;
+    
+    /* Colores Dinámicos de Componentes */
+    --color-btn-text: var(--color-primary); /* Texto oscuro en modo claro para contraste */
 
     /* Tipografía */
     --font-primary: 'Lora', serif;
@@ -53,6 +56,7 @@ body.dark-mode {
     --color-text: #F0F0F0;
     --color-text-muted: #A0A0A0;
     --color-border: #333333;
+    --color-btn-text: var(--color-accent); /* Texto dorado en modo oscuro */
     --shadow-sm: 0 2px 4px rgba(0,0,0,0.3);
     --shadow-md: 0 4px 8px rgba(0,0,0,0.4);
     --shadow-lg: 0 8px 16px rgba(0,0,0,0.5);
@@ -158,7 +162,7 @@ body.dark-mode .section__title {
     border-top: 1px solid rgba(255, 255, 255, 0.3); /* Brillo superior (efecto cristal) */
     border-left: 1px solid rgba(255, 255, 255, 0.2); /* Brillo izquierdo */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-    color: var(--color-accent); /* Texto dorado oscuro/elegante */
+    color: var(--color-btn-text); /* Dinámico: oscuro en modo claro, dorado en oscuro */
 }
 
 .btn:hover {
@@ -169,10 +173,15 @@ body.dark-mode .section__title {
 
 .btn--primary {
     background: rgba(212, 175, 55, 0.25);
-    color: var(--color-accent);
+    color: var(--color-btn-text);
 }
 .btn--primary:hover {
     background: rgba(212, 175, 55, 0.35);
+}
+
+/* Secciones siempre oscuras (Hero y Footer) */
+.glass-hero, .services-hero, .footer {
+    --color-btn-text: var(--color-accent);
 }
 
 .btn--secondary {
