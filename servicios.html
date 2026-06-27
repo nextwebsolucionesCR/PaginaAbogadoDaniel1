@@ -16,7 +16,7 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0..1,0" />
 
-    <link rel="stylesheet" href="css/styles.css?v=45">
+    <link rel="stylesheet" href="css/styles.css?v=46">
 </head>
 
 <body>
@@ -75,15 +75,21 @@
 
         <section class="container" style="padding: var(--spacing-lg) 0 var(--spacing-2xl) 0;">
             <div class="filters-bar">
-                <div class="filter-buttons">
+                <div class="filters-header">
+                    <button class="filter-toggle-btn" id="filter-toggle">
+                        <span class="material-symbols-outlined">filter_list</span>
+                        <span data-i18n="btn_filter_toggle">Filtrar</span>
+                    </button>
+                    <div class="search-bar">
+                        <input type="text" id="service-search" class="search-input" placeholder="Buscar servicio..." data-i18n-placeholder="search_placeholder">
+                    </div>
+                </div>
+                <div class="filter-buttons" id="filter-buttons-container">
                     <button class="filter-btn active" data-filter="all" data-i18n="btn_filter_all">Todos</button>
                     <button class="filter-btn" data-filter="notarial" data-i18n="cat_notarial">Notariales</button>
                     <button class="filter-btn" data-filter="civil" data-i18n="cat_civil">Derecho Civil</button>
                     <button class="filter-btn" data-filter="familia" data-i18n="cat_family">Familia</button>
                     <button class="filter-btn" data-filter="corporativa" data-i18n="cat_corporate">Corporativa</button>
-                </div>
-                <div class="search-bar">
-                    <input type="text" id="service-search" class="search-input" placeholder="Buscar servicio..." data-i18n-placeholder="search_placeholder">
                 </div>
             </div>
 
@@ -249,6 +255,15 @@
                 const activeFilter = document.querySelector('.filter-btn.active').getAttribute('data-filter');
                 renderServices(activeFilter, e.target.value);
             });
+
+            // Mobile filter toggle
+            const filterToggleBtn = document.getElementById('filter-toggle');
+            const filterButtonsContainer = document.getElementById('filter-buttons-container');
+            if (filterToggleBtn && filterButtonsContainer) {
+                filterToggleBtn.addEventListener('click', () => {
+                    filterButtonsContainer.classList.toggle('is-open');
+                });
+            }
 
             // Filters
             filterBtns.forEach(btn => {
