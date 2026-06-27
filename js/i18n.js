@@ -333,9 +333,44 @@ const translations = {
         serv_corp_2_title: "Constitution de sociétés",
         serv_corp_2_desc: "Un accompagnement global dans la création d'entreprises commerciales, ainsi que dans le respect des obligations sociales et réglementaires pour les entreprises de toutes tailles.",
         experience_title: "Daniel votre avocat de confiance", exp_years: "Années d'expérience", exp_clients: "Clients satisfaits", exp_cases: "Procédures notariales terminées", exp_profile: "Profil Professionnel",
+        
+        exp_bento_title: "Étapes Pertinentes",
+        exp_bento_corp_title: "Conseil aux Entreprises Transnationales",
+        exp_bento_corp_desc: "Plus de 5 ans à diriger l'ouverture de sièges opérationnels sous le régime de la zone franche et à structurer des fusions internationales (M&A) pour les entreprises du Fortune 500.",
+        exp_bento_real_title: "Développement Immobilier Côtier",
+        exp_bento_real_desc: "Notaire principal dans la constitution de complexes touristiques et de condominiums de luxe à Guanacaste, garantissant une diligence raisonnable stricte.",
+        exp_bento_bank_title: "Fiducies et Banques",
+        exp_bento_bank_desc: "Spécialiste externe pour les institutions financières nationales.",
+        exp_bento_lit_title: "Litiges Civils",
+        exp_bento_lit_desc: "Résolution efficace des litiges commerciaux très complexes.",
+        
+        btn_download_cv: "Télécharger le Curriculum",
+        
         testimonials_title: "Ce que disent nos clients",
         contact_title: "Besoin de conseils juridiques immédiats?", contact_desc: "Ne remettez pas à demain vos affaires juridiques. Contactez-moi dès aujourd'hui.", contact_hours_title: "Heures d'ouverture:", contact_hours_text: "Lundi - Vendredi de 8h à 17h", contact_phones_title: "Téléphones:", contact_email_title: "Email:", btn_load_map: "Voir l'emplacement sur la carte",
-        form_name: "Nom complet", form_name_ph: "Ex. Jean Dupont", form_phone: "Téléphone", form_phone_ph: "Ex. 8888-8888", form_email: "Email", form_email_ph: "email@exemple.com", form_message: "Description du cas", form_message_ph: "Écrivez les détails ici...", btn_send: "Envoyer le message", form_note: "* Formulaire de démonstration", footer_rights: "Tous droits réservés."
+        form_name: "Nom complet", form_name_ph: "Ex. Jean Dupont", form_phone: "Téléphone", form_phone_ph: "Ex. 8888-8888", form_email: "Email", form_email_ph: "email@exemple.com", form_message: "Description du cas", form_message_ph: "Écrivez les détails ici...", btn_send: "Envoyer le message", form_note: "* Formulaire de démonstration", 
+        
+        footer_nav_title: "Navigation",
+        footer_serv_title: "Spécialités",
+        footer_desc: "Des conseils juridiques et notariaux de premier ordre. Éthique, engagement et résultats pour protéger vos actifs.",
+        footer_rights: "Tous droits réservés.",
+        
+        privacy_page_title: "Politique de Confidentialité | Avocat Jose Daniel Martinez Espinoza",
+        privacy_title: "Politique de Confidentialité",
+        privacy_intro: "L'Avocat Jose Daniel Martinez Espinoza s'engage à protéger votre vie privée et au traitement éthique de vos données personnelles. Cette politique explique comment nous collectons, utilisons et protégeons vos informations lors de vos interactions avec notre site web et de l'utilisation de nos services.",
+        privacy_h1: "1. Les Informations Que Nous Collectons",
+        privacy_p1: "Nous collectons les informations personnelles que vous nous fournissez volontairement, telles que votre nom, numéro de téléphone, adresse e-mail et détails de votre consultation juridique lors de l'utilisation de notre formulaire de contact ou lors de la communication avec nous via WhatsApp.",
+        privacy_h2: "2. Utilisation des Informations",
+        privacy_p2: "Les informations collectées sont utilisées exclusivement pour :",
+        privacy_li1: "Vous fournir les conseils juridiques ou notariaux demandés.",
+        privacy_li2: "Répondre à vos questions et demandes de contact.",
+        privacy_li3: "Planifier des rendez-vous et envoyer des rappels.",
+        privacy_h3: "3. Secret Professionnel et Confidentialité",
+        privacy_p3: "En tant que professionnels du Droit, nous sommes soumis au secret professionnel le plus strict. Toutes les informations, documents et détails de votre cas sont protégés par ce principe éthique et légal. Nous ne partageons, ne vendons ni ne distribuons vos informations à des tiers sans votre consentement exprès, sauf si une décision de justice l'exige.",
+        privacy_h4: "4. Sécurité des Données",
+        privacy_p4: "Nous mettons en œuvre des mesures de sécurité administratives et techniques raisonnables pour protéger vos informations personnelles contre la perte, le vol, l'accès non autorisé, l'utilisation abusive ou la modification. Cependant, aucune transmission sur Internet n'est sécurisée à 100 %, nous vous recommandons donc d'être prudent lors de l'envoi d'informations hautement sensibles par des moyens électroniques non cryptés.",
+        privacy_h5: "5. Contact",
+        privacy_p5: "Si vous avez des questions ou des préoccupations concernant notre politique de confidentialité ou le traitement de vos données, n'hésitez pas à nous contacter par les moyens officiels fournis sur ce site."
     },
     pt: {
         nav_home: "Início", nav_about: "Sobre", nav_services: "Serviços", nav_experience: "Experiência", nav_contact: "Contato",
@@ -389,9 +424,44 @@ const translations = {
         serv_corp_2_title: "Constituição de sociedades",
         serv_corp_2_desc: "Apoio integral na criação de empresas comerciais, bem como no cumprimento das obrigações trabalhistas e regulatórias para empresas de todos os tamanhos.",
         experience_title: "Daniel, seu advogado de confiança", exp_years: "Anos de Experiência", exp_clients: "Clientes Satisfeitos", exp_cases: "Trâmites Notariais Concluídos", exp_profile: "Perfil Profissional",
+        
+        exp_bento_title: "Marcos Relevantes",
+        exp_bento_corp_title: "Assessoria Corporativa Transnacional",
+        exp_bento_corp_desc: "Mais de 5 anos liderando a abertura de sedes operacionais sob o Regime de Zona Franca e estruturando fusões internacionais (M&A) para empresas da Fortune 500.",
+        exp_bento_real_title: "Desenvolvimento Imobiliário Costeiro",
+        exp_bento_real_desc: "Notário principal na constituição de complexos turísticos e condomínios de luxo em Guanacaste, garantindo rigorosa devida diligência.",
+        exp_bento_bank_title: "Trusts e Bancos",
+        exp_bento_bank_desc: "Especialista externo para instituições financeiras nacionais.",
+        exp_bento_lit_title: "Litígios Civis",
+        exp_bento_lit_desc: "Resolução eficaz de disputas comerciais de alta complexidade.",
+        
+        btn_download_cv: "Baixar Currículo",
+        
         testimonials_title: "O que nossos clientes dizem",
         contact_title: "Precisa de assessoria jurídica imediata?", contact_desc: "Não deixe seus assuntos legais para amanhã. Contate-me hoje mesmo.", contact_hours_title: "Horário de atendimento:", contact_hours_text: "Segunda - Sexta das 8h às 17h", contact_phones_title: "Telefones:", contact_email_title: "Email:", btn_load_map: "Ver localização no mapa",
-        form_name: "Nome completo", form_name_ph: "Ex. João Silva", form_phone: "Telefone", form_phone_ph: "Ex. 8888-8888", form_email: "Email", form_email_ph: "email@exemplo.com", form_message: "Descrição breve do caso", form_message_ph: "Escreva os detalhes aqui...", btn_send: "Enviar Mensagem", form_note: "* Formulário demonstrativo", footer_rights: "Todos os direitos reservados."
+        form_name: "Nome completo", form_name_ph: "Ex. João Silva", form_phone: "Telefone", form_phone_ph: "Ex. 8888-8888", form_email: "Email", form_email_ph: "email@exemplo.com", form_message: "Descrição breve do caso", form_message_ph: "Escreva os detalhes aqui...", btn_send: "Enviar Mensagem", form_note: "* Formulário demonstrativo", 
+        
+        footer_nav_title: "Navegação",
+        footer_serv_title: "Especialidades",
+        footer_desc: "Assessoria legal e notarial de primeiro nível. Ética, compromisso e resultados para proteger seu patrimônio.",
+        footer_rights: "Todos os direitos reservados.",
+        
+        privacy_page_title: "Política de Privacidade | Advogado Jose Daniel Martinez Espinoza",
+        privacy_title: "Política de Privacidade",
+        privacy_intro: "O Licenciado Jose Daniel Martinez Espinoza está comprometido com a proteção de sua privacidade e o tratamento ético de seus dados pessoais. Esta política explica como coletamos, usamos e protegemos suas informações ao interagir com nosso site e utilizar nossos serviços.",
+        privacy_h1: "1. Informações que Coletamos",
+        privacy_p1: "Coletamos informações pessoais que você nos fornece voluntariamente, como seu nome, número de telefone, endereço de e-mail e detalhes de sua consulta legal ao utilizar nosso formulário de contato ou ao se comunicar conosco pelo WhatsApp.",
+        privacy_h2: "2. Uso das Informações",
+        privacy_p2: "As informações coletadas são usadas exclusivamente para:",
+        privacy_li1: "Fornecer-lhe a assessoria legal ou notarial solicitada.",
+        privacy_li2: "Responder às suas perguntas e solicitações de contato.",
+        privacy_li3: "Agendar compromissos e enviar lembretes.",
+        privacy_h3: "3. Sigilo Profissional e Confidencialidade",
+        privacy_p3: "Como profissionais do Direito, estamos sujeitos ao mais estrito sigilo profissional. Todas as informações, documentos e detalhes do seu caso estão protegidos por este princípio ético e legal. Não compartilhamos, vendemos ou distribuímos suas informações a terceiros sem o seu consentimento expresso, a menos que exigido por ordem judicial.",
+        privacy_h4: "4. Segurança de Dados",
+        privacy_p4: "Implementamos medidas de segurança administrativas e técnicas razoáveis para proteger suas informações pessoais contra perda, roubo, acesso não autorizado, uso indevido ou alteração. No entanto, nenhuma transmissão pela Internet é 100% segura, por isso recomendamos ser prudente ao enviar informações altamente confidenciais por meios eletrônicos não criptografados.",
+        privacy_h5: "5. Contato",
+        privacy_p5: "Se você tiver alguma dúvida ou preocupação sobre nossa política de privacidade ou o manuseio de seus dados, não hesite em nos contatar através dos meios oficiais fornecidos neste site."
     },
     zh: {
         nav_home: "首页", nav_about: "关于", nav_services: "服务", nav_experience: "经验", nav_contact: "联系",
@@ -445,9 +515,44 @@ const translations = {
         serv_corp_2_title: "公司成立",
         serv_corp_2_desc: "在商业公司创建方面提供全面支持，以及为各种规模的公司遵守劳工和监管义务。",
         experience_title: "丹尼尔，您信任的律师", exp_years: "多年法律经验", exp_clients: "满意的客户", exp_cases: "成功完成的公证程序", exp_profile: "个人资料",
+        
+        exp_bento_title: "相关里程碑",
+        exp_bento_corp_title: "跨国公司咨询",
+        exp_bento_corp_desc: "超过5年领导在自由贸易区制度下开设运营总部，并为财富500强企业构建国际并购（M&A）。",
+        exp_bento_real_title: "沿海房地产开发",
+        exp_bento_real_desc: "瓜纳卡斯特旅游综合体和豪华公寓构成的首席公证人，确保严格的尽职调查。",
+        exp_bento_bank_title: "信托与银行",
+        exp_bento_bank_desc: "国家金融机构的外部专家。",
+        exp_bento_lit_title: "民事诉讼",
+        exp_bento_lit_desc: "有效解决高度复杂的商业纠纷。",
+        
+        btn_download_cv: "下载简历",
+        
         testimonials_title: "我们的客户怎么说",
         contact_title: "需要立即的法律咨询吗？", contact_desc: "不要把法律事务留到明天。今天就联系我。", contact_hours_title: "营业时间:", contact_hours_text: "周一 - 周五 早上 8 点到下午 5 点", contact_phones_title: "电话:", contact_email_title: "电子邮件:", btn_load_map: "在地图上查看位置",
-        form_name: "全名", form_name_ph: "例如：张三", form_phone: "电话", form_phone_ph: "例如：8888-8888", form_email: "电子邮件", form_email_ph: "email@example.com", form_message: "案件简述", form_message_ph: "在这里写下细节...", btn_send: "发信息", form_note: "* 演示表单", footer_rights: "版权所有。"
+        form_name: "全名", form_name_ph: "例如：张三", form_phone: "电话", form_phone_ph: "例如：8888-8888", form_email: "电子邮件", form_email_ph: "email@example.com", form_message: "案件简述", form_message_ph: "在这里写下细节...", btn_send: "发信息", form_note: "* 演示表单", 
+        
+        footer_nav_title: "导航",
+        footer_serv_title: "专业领域",
+        footer_desc: "顶级的法律和公证咨询。道德，承诺和成果，以保护您的资产。",
+        footer_rights: "版权所有。",
+        
+        privacy_page_title: "隐私政策 | 律师 Jose Daniel Martinez Espinoza",
+        privacy_title: "隐私政策",
+        privacy_intro: "律师 Jose Daniel Martinez Espinoza 致力于保护您的隐私并符合道德规范地处理您的个人数据。本政策解释了我们在您与我们的网站互动并使用我们的服务时如何收集，使用和保护您的信息。",
+        privacy_h1: "1. 我们收集的信息",
+        privacy_p1: "我们收集您自愿提供的个人信息，例如您的姓名，电话号码，电子邮件地址以及您在使用我们的联系表格或通过 WhatsApp 与我们联系时的法律咨询详情。",
+        privacy_h2: "2. 信息的使用",
+        privacy_p2: "收集的信息仅用于：",
+        privacy_li1: "为您提供要求的法律或公证建议。",
+        privacy_li2: "回复您的问题和联系请求。",
+        privacy_li3: "安排预约并发送提醒。",
+        privacy_h3: "3. 职业保密和机密性",
+        privacy_p3: "作为法律专业人士，我们受最严格的职业保密约束。您的案件的所有信息，文件和细节都受到这项道德和法律原则的保护。除非有法院命令的要求，否则未经您的明确同意，我们不会与第三方分享，出售或分发您的信息。",
+        privacy_h4: "4. 数据安全",
+        privacy_p4: "我们采取合理的行政和技术安全措施，以保护您的个人信息免遭丢失，盗窃，未经授权的访问，滥用或更改。但是，通过互联网进行的传输并非 100% 安全，因此我们建议您在通过未加密的电子方式发送高度敏感的信息时要谨慎。",
+        privacy_h5: "5. 联系",
+        privacy_p5: "如果您对我们的隐私政策或对您的数据的处理有任何疑问或疑虑，请随时通过本网站提供的官方方式与我们联系。"
     }
 };
 
