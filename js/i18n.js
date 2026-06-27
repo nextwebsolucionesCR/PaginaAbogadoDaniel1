@@ -289,7 +289,7 @@ const translations = {
         about_text_1: "Je suis Jose Daniel Martinez Espinoza, Avocat et Notaire Public. Mon objectif principal est de fournir un accompagnement juridique préventif et résolutif.",
         about_text_2: "Avec une approche honnête et directe, je m'engage à protéger vos intérêts juridiques selon les normes d'éthique professionnelle les plus élevées.",
         about_stat_1: "Spécialité", about_stat_1_desc: "Droit et Notariat", about_stat_2: "Confiance", about_stat_2_desc: "Éthique Professionnelle",
-        services_title: "Domaines de Service", btn_more_services: "Voir plus de services",
+        services_title: "Domaines de Service", btn_view_services: "Voir les Services", btn_more_services: "Voir plus de services",
         cat_notarial: "Services Notariaux", cat_civil: "Droit Civil et Contrats", cat_family: "Droit de la Famille", cat_corporate: "Conseil aux Entreprises",
         // Servicios.html page specific
         serv_page_hero_title: "Nos Services",
@@ -380,7 +380,7 @@ const translations = {
         about_text_1: "Sou Jose Daniel Martinez Espinoza, Advogado e Notário Público. Meu principal objetivo é oferecer suporte jurídico preventivo e resolutivo.",
         about_text_2: "Com uma abordagem honesta e direta, dedico-me a proteger seus interesses legais sob os mais altos padrões de ética profissional.",
         about_stat_1: "Especialidade", about_stat_1_desc: "Direito e Notariado", about_stat_2: "Confiança", about_stat_2_desc: "Ética Profissional",
-        services_title: "Áreas de Atuação", btn_more_services: "Ver mais serviços",
+        services_title: "Áreas de Atuação", btn_view_services: "Ver Serviços", btn_more_services: "Ver mais serviços",
         cat_notarial: "Serviços Notariais", cat_civil: "Direito Civil e Contratos", cat_family: "Direito de Família", cat_corporate: "Assessoria Corporativa",
         // Servicios.html page specific
         serv_page_hero_title: "Nossos Serviços",
@@ -471,7 +471,7 @@ const translations = {
         about_text_1: "我是 Jose Daniel Martinez Espinoza，律师兼公证人。我的主要目标是提供预防和解决的法律支持。",
         about_text_2: "通过诚实和直接的方式，我致力于在最高职业道德标准下保护您的合法权益。",
         about_stat_1: "专业", about_stat_1_desc: "法律与公证", about_stat_2: "信任", about_stat_2_desc: "职业道德",
-        services_title: "服务领域", btn_more_services: "查看更多服务",
+        services_title: "服务领域", btn_view_services: "查看服务", btn_more_services: "查看更多服务",
         cat_notarial: "公证服务", cat_civil: "民法与合同", cat_family: "家庭法", cat_corporate: "企业咨询",
         // Servicios.html page specific
         serv_page_hero_title: "我们的服务",
