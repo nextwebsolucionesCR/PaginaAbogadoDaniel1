@@ -76,14 +76,14 @@
         <section class="container" style="padding: var(--spacing-lg) 0 var(--spacing-2xl) 0;">
             <div class="filters-bar">
                 <div class="filter-buttons">
-                    <button class="filter-btn active" data-filter="all">Todos</button>
-                    <button class="filter-btn" data-filter="notarial">Notariales</button>
-                    <button class="filter-btn" data-filter="civil">Derecho Civil</button>
-                    <button class="filter-btn" data-filter="familia">Familia</button>
-                    <button class="filter-btn" data-filter="corporativa">Corporativa</button>
+                    <button class="filter-btn active" data-filter="all" data-i18n="btn_filter_all">Todos</button>
+                    <button class="filter-btn" data-filter="notarial" data-i18n="cat_notarial">Notariales</button>
+                    <button class="filter-btn" data-filter="civil" data-i18n="cat_civil">Derecho Civil</button>
+                    <button class="filter-btn" data-filter="familia" data-i18n="cat_family">Familia</button>
+                    <button class="filter-btn" data-filter="corporativa" data-i18n="cat_corporate">Corporativa</button>
                 </div>
                 <div class="search-bar">
-                    <input type="text" id="service-search" class="search-input" placeholder="Buscar servicio...">
+                    <input type="text" id="service-search" class="search-input" placeholder="Buscar servicio..." data-i18n="search_placeholder">
                 </div>
             </div>
 
@@ -92,7 +92,7 @@
             </div>
 
             <div id="no-results" class="text-center" style="display:none; padding: var(--spacing-xl) 0;">
-                <h3 style="color:var(--color-text-muted);">No se encontraron servicios que coincidan con su búsqueda.
+                <h3 style="color:var(--color-text-muted);" data-i18n="no_results_text">No se encontraron servicios que coincidan con su búsqueda.
                 </h3>
             </div>
         </section>
@@ -188,18 +188,19 @@
             const filterBtns = document.querySelectorAll('.filter-btn');
             const noResults = document.getElementById('no-results');
 
-            // Categorias mapeadas
+            // Categorias mapeadas (usando las llaves de traducción)
             const catMap = {
-                'notarial': 'Servicios Notariales',
-                'civil': 'Derecho Civil y Contratos',
-                'familia': 'Derecho de Familia',
-                'corporativa': 'Asesoría Corporativa'
+                'notarial': 'cat_notarial',
+                'civil': 'cat_civil',
+                'familia': 'cat_family',
+                'corporativa': 'cat_corporate'
             };
 
             const renderServices = (filter = 'all', query = '') => {
                 grid.innerHTML = '';
                 let count = 0;
                 const q = query.toLowerCase();
+                const lang = window.currentLang || 'es';
 
                 Object.keys(serviceData).forEach(key => {
                     const data = serviceData[key];
@@ -208,8 +209,12 @@
                     if (key.includes('familia')) category = 'familia';
                     if (key.includes('corporativa')) category = 'corporativa';
 
+                    const translatedTitle = window.getText(lang, data.title_key) || "";
+                    const translatedDesc = window.getText(lang, data.desc_key) || "";
+                    const translatedCat = window.getText(lang, catMap[category]) || "";
+
                     const matchFilter = filter === 'all' || filter === category;
-                    const matchSearch = data.title.toLowerCase().includes(q) || data.desc.toLowerCase().includes(q);
+                    const matchSearch = translatedTitle.toLowerCase().includes(q) || translatedDesc.toLowerCase().includes(q);
 
                     if (matchFilter && matchSearch) {
                         count++;
@@ -218,11 +223,11 @@
                         article.onclick = () => openServiceModal(key);
                         article.innerHTML = `
                             <div class="service-card__img-wrapper">
-                                <img src="${data.img}" alt="${data.title}" class="service-card__img" loading="lazy">
+                                <img src="${data.img}" alt="${translatedTitle}" class="service-card__img" loading="lazy">
                             </div>
                             <div class="service-card__content">
-                                <span class="service-card__category">${catMap[category]}</span>
-                                <h3 class="service-card__title">${data.title}</h3>
+                                <span class="service-card__category">${translatedCat}</span>
+                                <h3 class="service-card__title">${translatedTitle}</h3>
                             </div>
                         `;
                         grid.appendChild(article);
@@ -252,6 +257,12 @@
                     e.target.classList.add('active');
                     renderServices(e.target.getAttribute('data-filter'), searchInput.value);
                 });
+            });
+
+            // Re-render when language changes
+            window.addEventListener('languageChanged', () => {
+                const activeFilter = document.querySelector('.filter-btn.active').getAttribute('data-filter');
+                renderServices(activeFilter, searchInput.value);
             });
         });
     </script>

@@ -227,73 +227,73 @@ document.addEventListener('DOMContentLoaded', () => {
    ========================================= */
 const serviceData = {
     notarial_1: {
-        title: "Traspasos de propiedades y vehículos",
-        desc: "Asesoría y gestión integral para la transferencia legal de bienes inmuebles y vehículos, garantizando seguridad jurídica, cumplimiento normativo y trámites ágiles.",
+        title_key: "serv_notarial_1_title",
+        desc_key: "serv_notarial_1_desc",
         img: "resources/image/ServiciosNotariales-TraspasoDePropiedadesYVehiculos.webp"
     },
     notarial_2: {
-        title: "Redacción de escrituras",
-        desc: "Elaboración de escrituras públicas con precisión legal, adaptadas a las necesidades de cada cliente y cumpliendo con todos los requisitos establecidos por la ley.",
+        title_key: "serv_notarial_2_title",
+        desc_key: "serv_notarial_2_desc",
         img: "resources/image/ServiciosNotariales-RedacciónDeEscrituras.webp"
     },
     notarial_3: {
-        title: "Autenticación de firmas",
-        desc: "Certificación notarial de firmas para brindar validez y seguridad jurídica a documentos públicos y privados.",
+        title_key: "serv_notarial_3_title",
+        desc_key: "serv_notarial_3_desc",
         img: "resources/image/ServiciosNotariales-AutenticaciónDeFirmas.webp"
     },
     notarial_4: {
-        title: "Testamentos",
-        desc: "Asesoría personalizada y formalización de testamentos para proteger el patrimonio y garantizar el cumplimiento de la voluntad del otorgante.",
+        title_key: "serv_notarial_4_title",
+        desc_key: "serv_notarial_4_desc",
         img: "resources/image/ServiciosNotariales-Testamentos.webp"
     },
     notarial_5: {
-        title: "Matrimonios legales",
-        desc: "Celebración y formalización de matrimonios civiles con acompañamiento profesional durante todo el proceso.",
-        img: "resources/image/ServiciosNotariales-Matrimonios legales.webp" // Consider space in filename, better to encode or rename but keeping it as requested
+        title_key: "serv_notarial_5_title",
+        desc_key: "serv_notarial_5_desc",
+        img: "resources/image/ServiciosNotariales-Matrimonios legales.webp"
     },
     notarial_6: {
-        title: "Certificaciones",
-        desc: "Emisión de certificaciones notariales de documentos, copias y hechos jurídicos, otorgándoles respaldo y autenticidad legal.",
+        title_key: "serv_notarial_6_title",
+        desc_key: "serv_notarial_6_desc",
         img: "resources/image/ServiciosNotariales-Certificaciones.webp"
     },
     civil_1: {
-        title: "Elaboración de contratos",
-        desc: "Redacción de contratos claros, sólidos y personalizados que protejan los intereses de las partes involucradas y prevengan futuros conflictos.",
+        title_key: "serv_civil_1_title",
+        desc_key: "serv_civil_1_desc",
         img: "resources/image/DerechoCivilYContratos-ElaboraciónDeContratos.webp"
     },
     civil_2: {
-        title: "Revisión y negociación de contratos",
-        desc: "Análisis detallado de cláusulas contractuales y acompañamiento estratégico en procesos de negociación para asegurar condiciones justas y favorables.",
+        title_key: "serv_civil_2_title",
+        desc_key: "serv_civil_2_desc",
         img: "resources/image/DerechoCivilYContratos-RevisiónYNegociaciónDeContratos.webp"
     },
     civil_3: {
-        title: "Resolución de conflictos patrimoniales",
-        desc: "Asesoría y representación legal en disputas relacionadas con bienes, propiedades, obligaciones y derechos patrimoniales.",
+        title_key: "serv_civil_3_title",
+        desc_key: "serv_civil_3_desc",
         img: "resources/image/DerechoCivilYContratos-ResoluciónDeConflictosPatrimoniales.webp"
     },
     civil_4: {
-        title: "Cobros judiciales y asesoría en obligaciones civiles",
-        desc: "Gestión eficiente de procesos de cobro y orientación legal para el cumplimiento y defensa de derechos derivados de obligaciones civiles.",
+        title_key: "serv_civil_4_title",
+        desc_key: "serv_civil_4_desc",
         img: "resources/image/DerechoCivilYContratos-CobrosJudicialesYAsesoríaEnObligacionesCiviles.webp"
     },
     familia_1: {
-        title: "Pensiones alimentarias",
-        desc: "Asesoría y gestión legal para la fijación, modificación o ejecución de pensiones alimentarias en defensa de los derechos de los involucrados.",
+        title_key: "serv_familia_1_title",
+        desc_key: "serv_familia_1_desc",
         img: "resources/image/DerechoDeFamilia-Pensiones-Alimentarias.webp"
     },
     familia_2: {
-        title: "Custodia y procesos sucesorios",
-        desc: "Representación y acompañamiento en asuntos de guarda, custodia de menores y trámites sucesorios relacionados con herencias y distribución de bienes.",
+        title_key: "serv_familia_2_title",
+        desc_key: "serv_familia_2_desc",
         img: "resources/image/DerechoDeFamila-CustodiaYProcesosSucesorios.webp"
     },
     corporativa_1: {
-        title: "Orientación legal preventiva para emprendedores",
-        desc: "Asesoramiento estratégico para la creación y desarrollo de negocios, identificando riesgos legales y fortaleciendo la seguridad jurídica de los proyectos.",
+        title_key: "serv_corp_1_title",
+        desc_key: "serv_corp_1_desc",
         img: "resources/image/AsesoriaCorporativa-OrientaciónLegalPreventivaParaEmprendedores.webp"
     },
     corporativa_2: {
-        title: "Constitución de sociedades anónimas",
-        desc: "Apoyo integral en la creación de sociedades mercantiles, así como en el cumplimiento de obligaciones laborales y regulatorias para empresas de todos los tamaños.",
+        title_key: "serv_corp_2_title",
+        desc_key: "serv_corp_2_desc",
         img: "resources/image/AsesoriaCorporativa-ConstituciónDeSociedadesAnónimasYRevisiónDeNormativasLaboralesParaEmpresas.webp"
     }
 };
@@ -304,15 +304,21 @@ window.openServiceModal = function(serviceId) {
     const data = serviceData[serviceId];
     
     if (modal && body && data) {
-        const waText = encodeURIComponent(`Hola, me interesa consultar sobre el servicio de ${data.title}`);
+        const lang = window.currentLang || 'es';
+        const translatedTitle = window.getText(lang, data.title_key) || "";
+        const translatedDesc = window.getText(lang, data.desc_key) || "";
+        const waPrefix = window.getText(lang, 'wa_message_prefix') || "Hola, me interesa consultar sobre el servicio de ";
+        const btnWa = window.getText(lang, 'btn_consult_wa') || "Consultar por WhatsApp";
+        
+        const waText = encodeURIComponent(`${waPrefix}${translatedTitle}`);
         const waLink = `https://wa.me/50671990701?text=${waText}`;
         
         body.innerHTML = `
-            <img src="${data.img}" alt="${data.title}" style="width:100%; border-radius:8px; margin-bottom:16px;">
-            <h3>${data.title}</h3>
-            <p>${data.desc}</p>
+            <img src="${data.img}" alt="${translatedTitle}" style="width:100%; border-radius:8px; margin-bottom:16px;">
+            <h3>${translatedTitle}</h3>
+            <p>${translatedDesc}</p>
             <a href="${waLink}" target="_blank" class="btn btn--primary btn--whatsapp w-100" style="margin-top:16px;">
-                <span class="material-symbols-outlined">chat</span> Consultar por WhatsApp
+                <span class="material-symbols-outlined">chat</span> ${btnWa}
             </a>
         `;
         modal.classList.add('is-active');

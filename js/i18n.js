@@ -37,12 +37,45 @@ const translations = {
         cat_family: "Derecho de Familia",
         cat_corporate: "Asesoría Corporativa",
         
+        // All Services
         serv_notarial_1_title: "Traspasos de propiedades y vehículos",
+        serv_notarial_1_desc: "Asesoría y gestión integral para la transferencia legal de bienes inmuebles y vehículos, garantizando seguridad jurídica, cumplimiento normativo y trámites ágiles.",
         serv_notarial_2_title: "Redacción de escrituras",
+        serv_notarial_2_desc: "Elaboración de escrituras públicas con precisión legal, adaptadas a las necesidades de cada cliente y cumpliendo con todos los requisitos establecidos por la ley.",
+        serv_notarial_3_title: "Autenticación de firmas",
+        serv_notarial_3_desc: "Certificación notarial de firmas para brindar validez y seguridad jurídica a documentos públicos y privados.",
+        serv_notarial_4_title: "Testamentos",
+        serv_notarial_4_desc: "Asesoría personalizada y formalización de testamentos para proteger el patrimonio y garantizar el cumplimiento de la voluntad del otorgante.",
+        serv_notarial_5_title: "Matrimonios legales",
+        serv_notarial_5_desc: "Celebración y formalización de matrimonios civiles con acompañamiento profesional durante todo el proceso.",
+        serv_notarial_6_title: "Certificaciones",
+        serv_notarial_6_desc: "Emisión de certificaciones notariales de documentos, copias y hechos jurídicos, otorgándoles respaldo y autenticidad legal.",
+        
         serv_civil_1_title: "Elaboración de contratos",
+        serv_civil_1_desc: "Redacción de contratos claros, sólidos y personalizados que protejan los intereses de las partes involucradas y prevengan futuros conflictos.",
         serv_civil_2_title: "Revisión y negociación de contratos",
+        serv_civil_2_desc: "Análisis detallado de cláusulas contractuales y acompañamiento estratégico en procesos de negociación para asegurar condiciones justas y favorables.",
+        serv_civil_3_title: "Resolución de conflictos patrimoniales",
+        serv_civil_3_desc: "Asesoría y representación legal en disputas relacionadas con bienes, propiedades, obligaciones y derechos patrimoniales.",
+        serv_civil_4_title: "Cobros judiciales y asesoría en obligaciones civiles",
+        serv_civil_4_desc: "Gestión eficiente de procesos de cobro y orientación legal para el cumplimiento y defensa de derechos derivados de obligaciones civiles.",
+        
         serv_familia_1_title: "Pensiones alimentarias",
-        serv_corp_1_title: "Orientación legal para emprendedores",
+        serv_familia_1_desc: "Asesoría y gestión legal para la fijación, modificación o ejecución de pensiones alimentarias en defensa de los derechos de los involucrados.",
+        serv_familia_2_title: "Custodia y procesos sucesorios",
+        serv_familia_2_desc: "Representación y acompañamiento en asuntos de guarda, custodia de menores y trámites sucesorios relacionados con herencias y distribución de bienes.",
+        
+        serv_corp_1_title: "Orientación legal preventiva para emprendedores",
+        serv_corp_1_desc: "Asesoramiento estratégico para la creación y desarrollo de negocios, identificando riesgos legales y fortaleciendo la seguridad jurídica de los proyectos.",
+        serv_corp_2_title: "Constitución de sociedades anónimas",
+        serv_corp_2_desc: "Apoyo integral en la creación de sociedades mercantiles, así como en el cumplimiento de obligaciones laborales y regulatorias para empresas de todos los tamaños.",
+        
+        // Servicios.html page specific
+        btn_filter_all: "Todos",
+        search_placeholder: "Buscar servicio...",
+        no_results_text: "No se encontraron servicios que coincidan con su búsqueda.",
+        btn_consult_wa: "Consultar por WhatsApp",
+        wa_message_prefix: "Hola, me interesa consultar sobre el servicio de ",
         
         // Experience
         experience_title: "Daniel su abogado de confianza",
@@ -141,12 +174,45 @@ const translations = {
         cat_family: "Family Law",
         cat_corporate: "Corporate Advice",
         
+        // All Services
         serv_notarial_1_title: "Property and vehicle transfers",
+        serv_notarial_1_desc: "Comprehensive advice and management for the legal transfer of real estate and vehicles, ensuring legal certainty, regulatory compliance, and agile procedures.",
         serv_notarial_2_title: "Drafting of deeds",
+        serv_notarial_2_desc: "Drafting of public deeds with legal precision, adapted to the needs of each client and complying with all requirements established by law.",
+        serv_notarial_3_title: "Authentication of signatures",
+        serv_notarial_3_desc: "Notarial certification of signatures to provide validity and legal certainty to public and private documents.",
+        serv_notarial_4_title: "Wills",
+        serv_notarial_4_desc: "Personalized advice and formalization of wills to protect assets and ensure compliance with the grantor's will.",
+        serv_notarial_5_title: "Legal marriages",
+        serv_notarial_5_desc: "Celebration and formalization of civil marriages with professional accompaniment throughout the process.",
+        serv_notarial_6_title: "Certifications",
+        serv_notarial_6_desc: "Issuance of notarial certifications of documents, copies, and legal facts, granting them support and legal authenticity.",
+        
         serv_civil_1_title: "Drafting of contracts",
+        serv_civil_1_desc: "Drafting of clear, solid, and personalized contracts that protect the interests of the parties involved and prevent future conflicts.",
         serv_civil_2_title: "Contract review and negotiation",
+        serv_civil_2_desc: "Detailed analysis of contractual clauses and strategic accompaniment in negotiation processes to ensure fair and favorable conditions.",
+        serv_civil_3_title: "Resolution of property disputes",
+        serv_civil_3_desc: "Legal advice and representation in disputes related to assets, properties, obligations, and property rights.",
+        serv_civil_4_title: "Judicial collections and advice on civil obligations",
+        serv_civil_4_desc: "Efficient management of collection processes and legal guidance for the fulfillment and defense of rights derived from civil obligations.",
+        
         serv_familia_1_title: "Alimony / Child Support",
+        serv_familia_1_desc: "Legal advice and management for the establishment, modification, or execution of alimony in defense of the rights of those involved.",
+        serv_familia_2_title: "Custody and succession processes",
+        serv_familia_2_desc: "Representation and accompaniment in matters of guardianship, child custody, and succession procedures related to inheritances and asset distribution.",
+        
         serv_corp_1_title: "Preventive legal guidance for entrepreneurs",
+        serv_corp_1_desc: "Strategic advice for the creation and development of businesses, identifying legal risks and strengthening the legal security of projects.",
+        serv_corp_2_title: "Incorporation of corporations",
+        serv_corp_2_desc: "Comprehensive support in the creation of commercial companies, as well as in compliance with labor and regulatory obligations for companies of all sizes.",
+        
+        // Servicios.html page specific
+        btn_filter_all: "All",
+        search_placeholder: "Search for a service...",
+        no_results_text: "No services found matching your search.",
+        btn_consult_wa: "Consult via WhatsApp",
+        wa_message_prefix: "Hello, I am interested in consulting about the service of ",
         
         experience_title: "Daniel, your trusted lawyer",
         exp_years: "Years of Legal Experience",
@@ -267,6 +333,10 @@ const DEFAULT_LANG = translations.es ? 'es' : (availableLangs[0] || 'es');
 let currentLang = localStorage.getItem('language') || DEFAULT_LANG;
 if (!translations[currentLang]) currentLang = DEFAULT_LANG;
 
+// Export to global scope
+window.currentLang = currentLang;
+window.getText = getText;
+
 function getText(lang, key) {
     if (translations[lang] && translations[lang][key] != null) return translations[lang][key];
     if (translations[DEFAULT_LANG] && translations[DEFAULT_LANG][key] != null) return translations[DEFAULT_LANG][key];
@@ -277,7 +347,8 @@ function updateLanguage(lang) {
     if (!translations[lang]) lang = DEFAULT_LANG;
 
     document.documentElement.lang = lang;
-
+    window.currentLang = lang; // Update global
+    
     // Text Content
     const elements = document.querySelectorAll('[data-i18n]');
     elements.forEach(element => {
