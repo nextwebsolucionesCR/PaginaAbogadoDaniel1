@@ -304,6 +304,7 @@ window.openServiceModal = function(serviceId) {
     const data = serviceData[serviceId];
     
     if (modal && body && data) {
+        window.currentOpenService = serviceId;
         const lang = window.currentLang || 'es';
         const translatedTitle = window.getText(lang, data.title_key) || "";
         const translatedDesc = window.getText(lang, data.desc_key) || "";
@@ -325,6 +326,13 @@ window.openServiceModal = function(serviceId) {
         document.body.style.overflow = 'hidden'; // Evita scroll de fondo
     }
 };
+
+window.addEventListener('languageChanged', () => {
+    const modal = document.getElementById('service-modal');
+    if (modal && modal.classList.contains('is-active') && window.currentOpenService) {
+        window.openServiceModal(window.currentOpenService);
+    }
+});
 
 window.closeServiceModal = function() {
     const modal = document.getElementById('service-modal');
