@@ -537,6 +537,15 @@ body.dark-mode .nav::before {
     margin-bottom: var(--spacing-lg);
 }
 
+.editorial__content h1,
+.editorial__content h2,
+.editorial__content h3,
+.editorial__content h4,
+.editorial__content h5,
+.editorial__content h6 {
+    text-align: left; /* Evitar que text-align: justify separe las letras en los titulos */
+}
+
 /* El drop-cap solo se activará en pantallas más grandes para evitar bugs de WebKit en móviles */
 @media (min-width: 768px) {
     .drop-cap::first-letter {
