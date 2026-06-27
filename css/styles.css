@@ -193,10 +193,14 @@ body.dark-mode .section__title {
 /* Secciones siempre oscuras (Hero y Footer) */
 .glass-hero, .services-hero {
     --color-btn-text: #FFFFFF;
+    --color-btn-bg: rgba(212, 175, 55, 0.25);
+    --color-btn-bg-hover: rgba(212, 175, 55, 0.35);
 }
 
 .footer {
     --color-btn-text: var(--color-accent);
+    --color-btn-bg: rgba(212, 175, 55, 0.25);
+    --color-btn-bg-hover: rgba(212, 175, 55, 0.35);
 }
 
 .btn--secondary {
