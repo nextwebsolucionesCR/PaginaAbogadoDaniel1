@@ -18,6 +18,8 @@
     
     /* Colores Dinámicos de Componentes */
     --color-btn-text: var(--color-primary); /* Texto oscuro en modo claro para contraste */
+    --color-btn-bg: rgba(212, 175, 55, 0.55); /* Fondo dorado mas fuerte en claro */
+    --color-btn-bg-hover: rgba(212, 175, 55, 0.7);
 
     /* Tipografía */
     --font-primary: 'Lora', serif;
@@ -58,6 +60,8 @@ body.dark-mode {
     --color-text-muted: #A0A0A0;
     --color-border: #333333;
     --color-btn-text: var(--color-accent); /* Texto dorado en modo oscuro */
+    --color-btn-bg: rgba(212, 175, 55, 0.25); /* Fondo suave en oscuro */
+    --color-btn-bg-hover: rgba(212, 175, 55, 0.35);
     --shadow-sm: 0 2px 4px rgba(0,0,0,0.3);
     --bg-texture: none;
     --shadow-md: 0 4px 8px rgba(0,0,0,0.4);
@@ -179,11 +183,11 @@ body.dark-mode .section__title {
 }
 
 .btn--primary {
-    background: rgba(212, 175, 55, 0.25);
+    background: var(--color-btn-bg);
     color: var(--color-btn-text);
 }
 .btn--primary:hover {
-    background: rgba(212, 175, 55, 0.35);
+    background: var(--color-btn-bg-hover);
 }
 
 /* Secciones siempre oscuras (Hero y Footer) */
