@@ -71,6 +71,8 @@ const translations = {
         serv_corp_2_desc: "Apoyo integral en la creación de sociedades mercantiles, así como en el cumplimiento de obligaciones laborales y regulatorias para empresas de todos los tamaños.",
         
         // Servicios.html page specific
+        serv_page_hero_title: "Nuestros Servicios",
+        serv_page_hero_subtitle: "Soluciones legales preventivas y resolutivas. Explore nuestro catálogo de servicios especializados.",
         btn_filter_all: "Todos",
         search_placeholder: "Buscar servicio...",
         no_results_text: "No se encontraron servicios que coincidan con su búsqueda.",
@@ -208,6 +210,8 @@ const translations = {
         serv_corp_2_desc: "Comprehensive support in the creation of commercial companies, as well as in compliance with labor and regulatory obligations for companies of all sizes.",
         
         // Servicios.html page specific
+        serv_page_hero_title: "Our Services",
+        serv_page_hero_subtitle: "Preventive and resolute legal solutions. Explore our catalog of specialized services.",
         btn_filter_all: "All",
         search_placeholder: "Search for a service...",
         no_results_text: "No services found matching your search.",
