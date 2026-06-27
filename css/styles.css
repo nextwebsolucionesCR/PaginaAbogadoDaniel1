@@ -14,6 +14,7 @@
     --color-text: #2D3142; /* Azul muy oscuro/Gris */
     --color-text-muted: #5C6275;
     --color-border: #D6D2CD;
+    --bg-texture: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.04'/%3E%3C/svg%3E");
     
     /* Colores Dinámicos de Componentes */
     --color-btn-text: var(--color-primary); /* Texto oscuro en modo claro para contraste */
@@ -58,6 +59,7 @@ body.dark-mode {
     --color-border: #333333;
     --color-btn-text: var(--color-accent); /* Texto dorado en modo oscuro */
     --shadow-sm: 0 2px 4px rgba(0,0,0,0.3);
+    --bg-texture: none;
     --shadow-md: 0 4px 8px rgba(0,0,0,0.4);
     --shadow-lg: 0 8px 16px rgba(0,0,0,0.5);
 }
@@ -107,6 +109,11 @@ a:hover {
 
 ul {
     list-style: none;
+}
+
+/* Textura para secciones específicas en modo claro */
+.about, .bento, .contact {
+    background-image: var(--bg-texture);
 }
 
 /* Utilidades */
