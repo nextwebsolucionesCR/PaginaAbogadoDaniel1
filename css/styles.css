@@ -1142,15 +1142,10 @@ body.dark-mode .contact__list strong {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
     
-    /* Diseño Minimalista - Glassmorphism */
-    background: rgba(244, 240, 235, 0.6);
+    /* Diseño Minimalista - Glassmorphism (Estilo oscuro por defecto) */
+    background: rgba(30, 30, 30, 0.5);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(0, 0, 0, 0.05);
-}
-
-body.dark-mode .float-btn {
-    background: rgba(30, 30, 30, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
