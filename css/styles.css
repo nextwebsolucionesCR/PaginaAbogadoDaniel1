@@ -1460,6 +1460,11 @@ body[data-theme="light"] .services-hero__overlay {
         color: inherit; /* Heredar el color blanco (o negro si está scrolled) del header */
     }
     
+    /* Ocultar el pseudo-elemento de la máscara de fondo en escritorio */
+    .nav::before, body.dark-mode .nav::before {
+        display: none;
+    }
+    
     body.dark-mode .nav {
         background-color: transparent;
         box-shadow: none;
